@@ -2,11 +2,14 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Седона</title>
 </head>
 
 <body>
+
   <header class="page-header">
     <nav class="navigation">
       <ul class="navigation-list">
@@ -23,11 +26,10 @@
       <img class="logo" src="" alt="Логотип Седона">
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visually-hidden">
-              Поиск
-            </span>
-          </a>
+          <input class="input-search" placeholder="Введите текст" type="text">
+          <span class="visually-hidden">
+            Поиск
+          </span>
         </li>
         <li class="navigation-item">
           <a class="navigation-link" href="#">
@@ -37,79 +39,139 @@
           </a>
         </li>
         <li class="navigation-item">
-          <a class="button navigation-link" href="#">ХОЧУ СЮДА</a>
+          <button class="button-open" type="button">Хочу сюда</button>
         </li>
       </ul>
     </nav>
   </header>
+
   <main class="main-index">
-    <img class="welcome-word1" src="" alt="WELCOME to gorgeous">
-    <img class=" welcome word 2" src="" alt="SEDONA">
-    <img class=" welcome word 3" scr="" alt="Because the Grand Canyon sucks!">
+    <div class="welcome-word-background">
+      <img src="" alt="">
+    </div>
 
-    <section class="description">
-    <h1 class="visually-hidden">Описание</h1>
-        <p class="description">СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО</p>
-        <p class="description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-    </section> 
-
-    <section class="description1">
-        <p class="description">НАСТОЯЩИЙ ГОРОДОК</p>
-        <p class="">— №1 —</p>
-        <p class="description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+    <!-- Правильная структура наименования классов -->
+    <section class="intro">
+      <h1 class="intro-title">СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО</h1>
+      <p class="intro-description">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
 
-    <section>
-      <img class="" scr="" alt="фото домов и флаги">  
-    </section>
+    <figure>
+      <img src="" alt="Изображение города">
+      <figcaption>
+        <h2></h2>
+        <span></span>
+        <p></p>
+      </figcaption>
+    </figure>
 
-    <section class="services">
-      <h2 class="services-title">Жилье</h2>
-                <img scr="#" alt="иконка домика">
-          <p class="services-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-      <h2 class="services-title">Еда</h2>
-               <img scr="#" alt="иконка еды">
-            <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-      <h2 class="services-title">Сувениры</h2>
-                <img scr="#" alt="иконка подарка">
-              <p class="services-description">Не только китайского, но и настоящего местного производства!</p>
-              </section>
+    <ul class="container-list">
+      <li>
+        <h2>Жильё</h2>
+        <p>
+          Рекомендуем пожить
+          в настоящем мотеле,
+          всё как в кино!
+        </p>
+      </li>
+      <li>
+        <h2>Жильё</h2>
+        <p>
+          Рекомендуем пожить
+          в настоящем мотеле,
+          всё как в кино!
+        </p>
+      </li>
+      <li>
+        <h2>Жильё</h2>
+        <p>
+          Рекомендуем пожить
+          в настоящем мотеле,
+          всё как в кино!
+        </p>
+      </li>
+    </ul>
 
-    <section>
-                <img class="#" scr="" alt="фото горы">  
-    </section>
-    
-    <section class="description2">
-        <p class="description">Там есть мост дьявола</p>
-        <p class="">— №2 —</p>
-        <p class="description"></p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-    </section>
+    <figure>
+      <img src="" alt="Изображение города">
+      <figcaption>
+        <h2></h2>
+        <span></span>
+        <p></p>
+      </figcaption>
+    </figure>
 
-    <section class="description3">
-      <p class="description">Небольшая площадь</p>
-      <p class="">— №3 —</p>
-      <p class="description"></p>Все достопримечательности находятся очень близко</p>
+    <ul class="container-list">
+      <li>
+        <h2>Жильё</h2>
+        <p>
+          Рекомендуем пожить
+          в настоящем мотеле,
+          всё как в кино!
+        </p>
+      </li>
+      <li>
+        <h2>Жильё</h2>
+        <p>
+          Рекомендуем пожить
+          в настоящем мотеле,
+          всё как в кино!
+        </p>
+      </li>
+      <li>
+        <h2>Жильё</h2>
+        <p>
+          Рекомендуем пожить
+          в настоящем мотеле,
+          всё как в кино!
+        </p>
+      </li>
+    </ul>
+
+  <section class="interesting">
+    <h2 class="interesring-title">Заинтересовались?</h2>
+    <p class="interesring-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне </p>
+    <button class="interesting-button button-color-brown" type="button">ПОИСК ГОСТИНИЦЫ В CЕДОНЕ</button>
   </section>
 
-  <section class="description4">
-    <p class="description">Красивая дорога</p>
-    <p class="">— №4 —</p>
-    <p class="description"></p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-</section>
-
-<section class="description5">
-  <p class="description">Мало туристов</p>
-  <p class="">— №5 —</p>
-  <p class="description"></p>Большинство едет в Гранд Каньон и толпится там</p>
-</section>
-
-<section class="interesting">
-  <p class="description">Заинтересовались?</p>
-  <p class="">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне </p>
-  <button class="button" type="submit">ПОИСК ГОСТИНИЦЫ В CЕДОНЕ</button>
-</section>
+  <section class="subscribe">
+    <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+    <p class="subscribe-description">Только полезная информация и никакого спама,
+      честное бойскаутское!</p>
+    <div>
+      <input type="text" placeholder="Вам e-mail">
+      <button class="subscribe-button" type="submit">Подписаться</button>
+    </div>
+  </section>
 </main>
-  <footer></footer>
+
+  <footer>
+
+    <ul>
+      <li>
+        <a href="#">
+
+        </a>
+      </li>
+      <li>
+        <a href="#">
+
+        </a>
+      </li>
+      <li>
+        <a href="#">
+
+        </a>
+      </li>
+    </ul>
+
+    <a href="#">+7 (812) 812-12-12</a>
+
+    <a href="#">
+      <!-- Какое-то изображение -->
+    </a>
+
+  </footer>
 
 </body>
 
