@@ -43,21 +43,40 @@
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <img class="image" src="#" alt="иконка домика">
         <p class="hotels">Гостиницы</p>
+      </header>
         
-      <ul class="catalog-list">
-        <h2 class="catalog-title">Инфраструктура</h2>
-          <li class="catalog-item">Бассейн</li>
-          <li class="catalog-item">Парковка</li>
-          <li class="catalog-item">Wi-Fi</li>
-
+        <h2 class="filter-title">Инфраструктура</h2>
+          <ul class="filter-item"></ul>
+            <li class="filter-list">
+              <label class="control">
+                <input class="visually-hidden control-input" type="checkbox" name="Бассейн">
+                <span class="control-mark"></span>
+            <span class="control-label">Бассейн</span>
+              </label>
+            </li>
+            <li class="filter-list">
+              <label class="control">
+                <input class="visually-hidden control-input" type="checkbox" name="Парковка">
+                <span class="control-mark"></span>
+            <span class="control-label">Парковка</span>
+              </label>
+              </li>
+              <li class="filter-list"></li>
+               <label class="control">
+                <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
+                  <span class="control-mark"></span>
+            <span class="control-label">Wi-Fi</span>
+              </label>
+            </li>
           
-        <h2 class="catalog-title">Тип жилья:</h2>
-          <li class="catalog-item">Гостиницы</li>
-          <li class="catalog-item">Мотель</li>
-          <li class="catalog-item">Апартаменты</li>
+        <h2 class="filter-title">Тип жилья:</h2>
+          <ul class="filter-list">
+            <li class="filter-item">Гостиницы</li>
+            <li class="filter-item">Мотель</li>
+           <li class="filter-item">Апартаменты</li>
+        </ul>
 
-        <h2 class="catalog-title">Стоимость, ₽:</h2>
-        <div>
+        <h2 class="filter-title">Стоимость, ₽:</h2>
           <input type="price" placeholder="от 0">
           <input type="price" placeholder="от 9000">
           <button class="subscribe-button" type="submit">Применить</button>
@@ -69,13 +88,13 @@
             <span class="visually-hidden">Изменить максимальную цену.</span>
           </button>
           
-          <label class="catalog-filter-label">
-            от <input class="catalog-filter-input" type="number" name="min-price"> ₽
+          <label class="filter-label">
+            от <input class="filter-input" type="number" name="min-price"> ₽
           </label>
-          <label class="catalog-filter-label">
-            до <input class="catalog-filter-input" type="number" name="max-price"> ₽
+          <label class="filter-label">
+            до <input class="filter-filter-input" type="number" name="max-price"> ₽
           </label>
-          <button class="subscribe-button" type="submit">сбросить</button>
+          <button class="subscribe-button" type="submit">Сбросить</button>
         </div>
               
 
