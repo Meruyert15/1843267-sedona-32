@@ -46,7 +46,7 @@
       </header>
         
         <h2 class="filter-title">Инфраструктура</h2>
-          <ul class="filter-item"></ul>
+          <ul class="filter-item">
             <li class="filter-list">
               <label class="control">
                 <input class="visually-hidden control-input" type="checkbox" name="Бассейн" checked>
@@ -68,13 +68,34 @@
             <span class="control-label"> Wi-Fi</span>
               </label>
             </li>
+          </ul>
           
         <h2 class="filter-title">Тип жилья:</h2>
           <ul class="filter-list">
-            <li class="filter-item">Гостиницы</li>
-            <li class="filter-item">Мотель</li>
-           <li class="filter-item">Апартаменты</li>
+            <li class="filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="Hotel">
+              <span class="control-mark"></span>
+          <span class="control-label">Гостиница</span>
+            </label>
+          </li>
+          <li class="filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="Motel">
+              <span class="control-mark"></span>
+          <span class="control-label">Мотель</span>
+            </label>
+          </li>
+          <li class="filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="Apartaments">
+              <span class="control-mark"></span>
+          <span class="control-label">Апартаменты</span>
+            </label>
+          </li>
         </ul>
+
+              
 
         <h2 class="filter-title">Стоимость, ₽:</h2>
           <input type="price" placeholder="от 0">
