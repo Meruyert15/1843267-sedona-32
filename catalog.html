@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Седона</title>
 </head>
-
 <body>
   <header class="page-header">
     <nav class="navigation">
@@ -41,82 +41,90 @@
   <main class="main-inner">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
-         <img class="image" src="#" alt="иконка домика">
-          <p class="hotels">Гостиницы</p>
+        <!-- Подумай над тем, контентное это изображение или нет -->
+         <img class="inner-header-image" src="#" alt="иконка домика">
+          <span class="inner-header-hotels">Гостиницы</span>
       </header>
-        
-        <h2 class="filter-title">Инфраструктура</h2>
-          <ul class="filter-item">
-            <li class="filter-list">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="Бассейн" checked>
-                <span class="control-mark"></span>
-            <span class="control-label">Бассейн</span>
-              </label>
-            </li>
-            <li class="filter-list">
-              <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="Парковка"checked>
-                <span class="control-mark"></span>
-            <span class="control-label">Парковка</span>
-              </label>
+
+      <form action="">
+        <div>
+          <h2 class="filter-title">Инфраструктура</h2>
+            <ul class="filter-item">
+              <li class="filter-list">
+                <label class="control">
+                  <input class="visually-hidden control-input" type="checkbox" name="Бассейн" checked>
+                  <span class="control-mark"></span>
+              <span class="control-label">Бассейн</span>
+                </label>
               </li>
               <li class="filter-list">
-               <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
+                <label class="control">
+                  <input class="visually-hidden control-input" type="checkbox" name="Парковка"checked>
                   <span class="control-mark"></span>
-            <span class="control-label"> Wi-Fi</span>
+              <span class="control-label">Парковка</span>
+                </label>
+                </li>
+                <li class="filter-list">
+                 <label class="control">
+                  <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
+                    <span class="control-mark"></span>
+              <span class="control-label"> Wi-Fi</span>
+                </label>
+              </li>
+            </ul>
+        </div>
+
+        <div>
+          <h2 class="filter-title">Тип жилья:</h2>
+            <ul class="filter-list">
+              <li class="filter-item">
+              <label class="control">
+                <input class="visually-hidden control-input" type="radio" name="product-group" value="Hotel">
+                <span class="control-mark"></span>
+            <span class="control-label">Гостиница</span>
+              </label>
+            </li>
+            <li class="filter-item">
+              <label class="control">
+                <input class="visually-hidden control-input" type="radio" name="product-group" value="Motel">
+                <span class="control-mark"></span>
+            <span class="control-label">Мотель</span>
+              </label>
+            </li>
+            <li class="filter-item">
+              <label class="control">
+                <input class="visually-hidden control-input" type="radio" name="product-group" value="Apartaments">
+                <span class="control-mark"></span>
+            <span class="control-label">Апартаменты</span>
               </label>
             </li>
           </ul>
-          
-        <h2 class="filter-title">Тип жилья:</h2>
-          <ul class="filter-list">
-            <li class="filter-item">
-            <label class="control">
-              <input class="visually-hidden control-input" type="radio" name="product-group" value="Hotel">
-              <span class="control-mark"></span>
-          <span class="control-label">Гостиница</span>
-            </label>
-          </li>
-          <li class="filter-item">
-            <label class="control">
-              <input class="visually-hidden control-input" type="radio" name="product-group" value="Motel">
-              <span class="control-mark"></span>
-          <span class="control-label">Мотель</span>
-            </label>
-          </li>
-          <li class="filter-item">
-            <label class="control">
-              <input class="visually-hidden control-input" type="radio" name="product-group" value="Apartaments">
-              <span class="control-mark"></span>
-          <span class="control-label">Апартаменты</span>
-            </label>
-          </li>
-        </ul>
-          
-        <h2 class="filter-title">Стоимость, ₽:</h2>
-          <input type="price" placeholder="от 0">
-          <input type="price" placeholder="от 9000">
-          <button class="subscribe-button" type="submit">Применить</button>
-          
+        </div>
+
+        <div>
           <button class="range-toggle toggle-min" type="button">
-             <span class="visually-hidden">Изменить минимальную цену.</span>
-          </button>
-          <button class="range-toggle toggle-max" type="button">
-            <span class="visually-hidden">Изменить максимальную цену.</span>
-          </button>
-          
-          <label class="filter-label">
-            от <input class="filter-input" type="number" name="min-price"> ₽
-          </label>
-          <label class="filter-label">
-            до <input class="filter-filter-input" type="number" name="max-price"> ₽
-          </label>
-          <button class="subscribe-button" type="submit">Сбросить</button>
+            <span class="visually-hidden">Изменить минимальную цену.</span>
+         </button>
+         <button class="range-toggle toggle-max" type="button">
+           <span class="visually-hidden">Изменить максимальную цену.</span>
+         </button>
+
+         <label class="filter-label">
+           от <input class="filter-input" type="number" name="min-price"> ₽
+         </label>
+         <label class="filter-label">
+           до <input class="filter-filter-input" type="number" name="max-price"> ₽
+         </label>
+        </div>
+
+        <!-- Подумай над названием класса, у тебя есть кнопки с одинаковым цветом,
+        нужны два класса: один индивидуальный и другой общий, где будет использоваться цвет -->
+        <button class="" type="submit">Применить</button>
+        <button class="subscribe-button" type="submit">Сбросить</button>
+      </form>
 
       <div class="find">
-        <p>Найдено гостиниц:<span>38</span></p>
+        <h2>Найдено гостиниц:<span>38</span></h2>
       </div>
         <form class="sorting-type">
           <label class="visually-hidden" for="sorting">Сортировка</label>
@@ -125,6 +133,7 @@
             <option value="cheap">Сначала дешёвое</option>
             <option value="expensive">Сначала дорогое</option>
           </select>
+          <!-- Что делает эта кнопка? Если она потом будет скрыта, то зачем она нам? -->
           <button class="visually-hidden" type="submit">Отсортировать продукты</button>
         </form>
         <a href="#" class="button button-light">
@@ -137,23 +146,24 @@
           <span class="visually-hidden">Сортировка по рейтингу</span>
         </a>
       <section>
-        <figure class="Hotel">
-          <img class="Hotel-image" src="#" alt="Изображение скалы">
-          <figcaption class="Hotel-image-desription"Изображение скалы></figcaption> 
-            <h2 class="Hotel-title">Amara Resort & Spa</h2>
-             <span class="Hotel-word">Гостиница</span>
-              <p class="Hotel-price">От 4000 ₽</p>
-              <a href="#" class="button button-light">Подробнее</a>
-              <button class="button" type="submit">В избранное</button>
+        <!-- Не надо задавать классы с заглавной буквы, это плохая практика -->
+        <figure class="hotel">
+          <img class="hotel-image" src="#" width="180" height="120" alt="Изображение скалы">
+          <figcaption class="hotel-image-desription"></figcaption>
+            <h2 class="hotel-title">Amara Resort & Spa</h2>
+            <span class="hotel-word">Гостиница</span>
+            <span class="hotel-price">От 4000 ₽</span>
+            <a href="#" class="button button-light">Подробнее</a>
+            <button class="button" type="submit">В избранное</button>
         </figure>
         <div class="rating">
           <img class="stars" src="#" alt="Изображение 4 звезд">
-          <p>Рейтинг:<span>8,5</span></p>
+          <h2>Рейтинг:<span>8,5</span></h2>
         </div>
-        
+
         <figure class="Hotel">
-          <img class="Hotel-image" src="#" alt="Изображение гостиницы">
-          <figcaption class="Hotel-image-desription"Изображение гостиницы></figcaption> 
+          <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение гостиницы">
+          <figcaption class="Hotel-image-desription"></figcaption>
             <h2 class="Hotel-title">Desert Quail Inn</h2>
              <span class="Hotel-word">Мотель</span>
               <p class="Hotel-price">От 3000 ₽</p>
@@ -162,17 +172,18 @@
         </figure>
         <div class="rating">
           <img class="stars" src="#" alt="Изображение 3 звезд">
-          <p>Рейтинг:<span>8,9</span></p>
+          <h2>Рейтинг:<span>8,9</span></h2>
         </div>
 
         <figure class="Hotel">
-          <img class="Hotel-image" src="#" alt="Изображение горы">
-          <figcaption class="Hotel-image-desription"Изображение горы></figcaption> 
+          <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение горы">
+          <figcaption class="Hotel-image-desription"></figcaption>
             <h2 class="Hotel-title">Villas at Poco Diablo</h2>
              <span class="Hotel-word">Апартаменты</span>
               <p class="Hotel-price">От 2000 ₽</p>
               <a href="#" class="button button-light">Подробнее</a>
-              <button class="button" type="submit">В избранное</button>
+              <!-- Даем уникальный класс, чтобы передать зеленый цвет -->
+              <button class="button button-selected" type="submit">В избранном</button>
         </figure>
         <div class="rating">
           <img class="stars" src="#" alt="Изображение 2 звезд">
@@ -180,8 +191,8 @@
         </div>
 
         <figure class="Hotel">
-          <img class="Hotel-image" src="#" alt="Изображение дороги">
-          <figcaption class="Hotel-image-desription"Изображение дороги></figcaption> 
+          <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение дороги">
+          <figcaption class="Hotel-image-desription"></figcaption>
             <h2 class="Hotel-title">GreenTree Inn</h2>
              <span class="Hotel-word">Гостиница</span>
               <p class="Hotel-price">От 3000 ₽</p>
@@ -194,20 +205,35 @@
         </div>
 
         <section>
-          <a href="#" class="button button-light">Загрузить еще</a>
+          <button class="button button-light">Загрузить еще</button>
           <ul>
+            <!-- Нельзя писать все ссылки в одном теге, иначе все будет склеяно
+            и ты не сможешь задать расстояние -->
             <li>
               <a href="#" class="button button-light">1</a>
+            </li>
+            <li>
               <a href="#" class="button button-light">2</a>
+            </li>
+            <li>
               <a href="#" class="button button-light">3</a>
+            </li>
+            <li>
               <a href="#" class="button button-light">4</a>
+            </li>
+            <li>
               <a href="#" class="button button-light">...</a>
+            </li>
+            <li>
               <a href="#" class="button button-light">10</a>
-            <p class="hotels-on-page">Гостиниц на странице</p>
+            </li>
           <form class="sorting-type">
-            <label class="visually-hidden" for="sorting">Сортировка</label>
+            <label for="sorting">Гостиниц на странице</label>
             <select class="select-control" id="sorting" name="sorting">
-              <option value="popular">Количество</option>
+              <option value="popular">1</option>
+              <option value="popular">2</option>
+              <option value="popular">3</option>
+              <option value="popular">4</option>
             </select>
           </form>
             </li>
@@ -240,9 +266,11 @@
           </a>
         </li>
       </ul>
-      <a href="#">+7 (812)-12-12</a>
-      <p class="logo-html"> <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
-    
+      <a href="tel:+78128121212">+7 (812)-812-12-12</a>
+      <span class="logo-html">
+        <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
+      </span>
+
   </footer>
 
 </body>
