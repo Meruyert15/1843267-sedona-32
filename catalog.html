@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Седона</title>
 </head>
+
 <body>
   <header class="page-header">
     <nav class="navigation">
@@ -39,194 +41,195 @@
     </nav>
   </header>
   <main class="main-inner">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <!-- Подумай над тем, контентное это изображение или нет -->
-         <img class="inner-header-image" src="#" alt="иконка домика">
-          <span class="inner-header-hotels">Гостиницы</span>
-      </header>
+    <header class="inner-header">
+      <h1 class="inner-header-title">Гостиницы Седоны</h1>
+      <!-- Подумай над тем, контентное это изображение или нет -->
+      <img class="inner-header-image" src="#" alt="иконка домика">
+      <span class="inner-header-hotels">Гостиницы</span>
+    </header>
 
-      <form action="">
-        <div>
-          <h2 class="filter-title">Инфраструктура</h2>
-            <ul class="filter-item">
-              <li class="filter-list">
-                <label class="control">
-                  <input class="visually-hidden control-input" type="checkbox" name="Бассейн" checked>
-                  <span class="control-mark"></span>
+    <form action="">
+      <div>
+        <h2 class="filter-title">Инфраструктура</h2>
+        <ul class="filter-item">
+          <li class="filter-list">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="Бассейн" checked>
+              <span class="control-mark"></span>
               <span class="control-label">Бассейн</span>
-                </label>
-              </li>
-              <li class="filter-list">
-                <label class="control">
-                  <input class="visually-hidden control-input" type="checkbox" name="Парковка"checked>
-                  <span class="control-mark"></span>
+            </label>
+          </li>
+          <li class="filter-list">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="Парковка" checked>
+              <span class="control-mark"></span>
               <span class="control-label">Парковка</span>
-                </label>
-                </li>
-                <li class="filter-list">
-                 <label class="control">
-                  <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
-                    <span class="control-mark"></span>
+            </label>
+          </li>
+          <li class="filter-list">
+            <label class="control">
+              <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
+              <span class="control-mark"></span>
               <span class="control-label"> Wi-Fi</span>
-                </label>
-              </li>
-            </ul>
-        </div>
-
-        <div>
-          <h2 class="filter-title">Тип жилья:</h2>
-            <ul class="filter-list">
-              <li class="filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="product-group" value="Hotel">
-                <span class="control-mark"></span>
-            <span class="control-label">Гостиница</span>
-              </label>
-            </li>
-            <li class="filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="product-group" value="Motel">
-                <span class="control-mark"></span>
-            <span class="control-label">Мотель</span>
-              </label>
-            </li>
-            <li class="filter-item">
-              <label class="control">
-                <input class="visually-hidden control-input" type="radio" name="product-group" value="Apartaments">
-                <span class="control-mark"></span>
-            <span class="control-label">Апартаменты</span>
-              </label>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <button class="range-toggle toggle-min" type="button">
-            <span class="visually-hidden">Изменить минимальную цену.</span>
-         </button>
-         <button class="range-toggle toggle-max" type="button">
-           <span class="visually-hidden">Изменить максимальную цену.</span>
-         </button>
-
-         <label class="filter-label">
-           от <input class="filter-input" type="number" name="min-price"> ₽
-         </label>
-         <label class="filter-label">
-           до <input class="filter-filter-input" type="number" name="max-price"> ₽
-         </label>
-        </div>
-
-        <!-- Подумай над названием класса, у тебя есть кнопки с одинаковым цветом,
-        нужны два класса: один индивидуальный и другой общий, где будет использоваться цвет -->
-        <button class="" type="submit">Применить</button>
-        <button class="subscribe-button" type="submit">Сбросить</button>
-      </form>
-
-      <div class="find">
-        <h2>Найдено гостиниц:<span>38</span></h2>
+            </label>
+          </li>
+        </ul>
       </div>
-        <form class="sorting-type">
-          <label class="visually-hidden" for="sorting">Сортировка</label>
-          <select class="select-control" id="sorting" name="sorting">
-            <option value="popular">Сначала популярное</option>
-            <option value="cheap">Сначала дешёвое</option>
-            <option value="expensive">Сначала дорогое</option>
-          </select>
-          <!-- Что делает эта кнопка? Если она потом будет скрыта, то зачем она нам? -->
-          <button class="visually-hidden" type="submit">Отсортировать продукты</button>
-        </form>
-        <a href="#" class="button button-light">
-          <span class="visually-hidden">Сортировка по типу</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Сортировка по цене</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Сортировка по рейтингу</span>
-        </a>
+
+      <div>
+        <h2 class="filter-title">Тип жилья:</h2>
+        <ul class="filter-list">
+          <li class="filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="Hotel">
+              <span class="control-mark"></span>
+              <span class="control-label">Гостиница</span>
+            </label>
+          </li>
+          <li class="filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="Motel">
+              <span class="control-mark"></span>
+              <span class="control-label">Мотель</span>
+            </label>
+          </li>
+          <li class="filter-item">
+            <label class="control">
+              <input class="visually-hidden control-input" type="radio" name="product-group" value="Apartaments">
+              <span class="control-mark"></span>
+              <span class="control-label">Апартаменты</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <button class="range-toggle toggle-min" type="button">
+          <span class="visually-hidden">Изменить минимальную цену.</span>
+        </button>
+        <button class="range-toggle toggle-max" type="button">
+          <span class="visually-hidden">Изменить максимальную цену.</span>
+        </button>
+
+        <label class="filter-label">
+          от <input class="filter-input" type="number" name="min-price"> ₽
+        </label>
+        <label class="filter-label">
+          до <input class="filter-filter-input" type="number" name="max-price"> ₽
+        </label>
+      </div>
+
+      <!-- Подумай над названием класса, у тебя есть кнопки с одинаковым цветом,
+        нужны два класса: один индивидуальный и другой общий, где будет использоваться цвет -->
+      <button class="" type="submit">Применить</button>
+      <button class="subscribe-button" type="submit">Сбросить</button>
+    </form>
+
+    <div class="find">
+      <h2>Найдено гостиниц:<span>38</span></h2>
+    </div>
+    <form class="sorting-type">
+      <label class="visually-hidden" for="sorting">Сортировка</label>
+      <select class="select-control" id="sorting" name="sorting">
+        <option value="popular">Сначала популярное</option>
+        <option value="cheap">Сначала дешёвое</option>
+        <option value="expensive">Сначала дорогое</option>
+      </select>
+      <!-- Что делает эта кнопка? Если она потом будет скрыта, то зачем она нам? -->
+      <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+    </form>
+    <a href="#" class="button button-light">
+      <span class="visually-hidden">Сортировка по типу</span>
+    </a>
+    <a class="button" href="#">
+      <span class="visually-hidden">Сортировка по цене</span>
+    </a>
+    <a class="button" href="#">
+      <span class="visually-hidden">Сортировка по рейтингу</span>
+    </a>
+
+    <section>
+      <!-- Не надо задавать классы с заглавной буквы, это плохая практика -->
+      <figure class="hotel">
+        <img class="hotel-image" src="#" width="180" height="120" alt="Изображение скалы">
+        <figcaption class="hotel-image-desription"></figcaption>
+        <h2 class="hotel-title">Amara Resort & Spa</h2>
+        <span class="hotel-word">Гостиница</span>
+        <span class="hotel-price">От 4000 ₽</span>
+        <a href="#" class="button button-light">Подробнее</a>
+        <button class="button" type="submit">В избранное</button>
+      </figure>
+      <div class="rating">
+        <img class="stars" src="#" alt="Изображение 4 звезд">
+        <h2>Рейтинг:<span>8,5</span></h2>
+      </div>
+
+      <figure class="Hotel">
+        <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение гостиницы">
+        <figcaption class="Hotel-image-desription"></figcaption>
+        <h2 class="Hotel-title">Desert Quail Inn</h2>
+        <span class="Hotel-word">Мотель</span>
+        <p class="Hotel-price">От 3000 ₽</p>
+        <a href="#" class="button button-light">Подробнее</a>
+        <button class="button" type="submit">В избранное</button>
+      </figure>
+      <div class="rating">
+        <img class="stars" src="#" alt="Изображение 3 звезд">
+        <h2>Рейтинг:<span>8,9</span></h2>
+      </div>
+
+      <figure class="Hotel">
+        <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение горы">
+        <figcaption class="Hotel-image-desription"></figcaption>
+        <h2 class="Hotel-title">Villas at Poco Diablo</h2>
+        <span class="Hotel-word">Апартаменты</span>
+        <p class="Hotel-price">От 2000 ₽</p>
+        <a href="#" class="button button-light">Подробнее</a>
+        <!-- Даем уникальный класс, чтобы передать зеленый цвет -->
+        <button class="button button-selected" type="submit">В избранном</button>
+      </figure>
+      <div class="rating">
+        <img class="stars" src="#" alt="Изображение 2 звезд">
+        <h2>Рейтинг:<span>9,2</span></h2>
+      </div>
+
+      <figure class="Hotel">
+        <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение дороги">
+        <figcaption class="Hotel-image-desription"></figcaption>
+        <h2 class="Hotel-title">GreenTree Inn</h2>
+        <span class="Hotel-word">Гостиница</span>
+        <p class="Hotel-price">От 3000 ₽</p>
+        <a href="#" class="button button-light">Подробнее</a>
+        <button class="button" type="submit">В избранное</button>
+      </figure>
+      <div class="rating">
+        <img class="stars" src="#" alt="Изображение 2 звезд">
+        <h2>Рейтинг:<span>9,2</span></h2>
+      </div>
+
       <section>
-        <!-- Не надо задавать классы с заглавной буквы, это плохая практика -->
-        <figure class="hotel">
-          <img class="hotel-image" src="#" width="180" height="120" alt="Изображение скалы">
-          <figcaption class="hotel-image-desription"></figcaption>
-            <h2 class="hotel-title">Amara Resort & Spa</h2>
-            <span class="hotel-word">Гостиница</span>
-            <span class="hotel-price">От 4000 ₽</span>
-            <a href="#" class="button button-light">Подробнее</a>
-            <button class="button" type="submit">В избранное</button>
-        </figure>
-        <div class="rating">
-          <img class="stars" src="#" alt="Изображение 4 звезд">
-          <h2>Рейтинг:<span>8,5</span></h2>
-        </div>
-
-        <figure class="Hotel">
-          <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение гостиницы">
-          <figcaption class="Hotel-image-desription"></figcaption>
-            <h2 class="Hotel-title">Desert Quail Inn</h2>
-             <span class="Hotel-word">Мотель</span>
-              <p class="Hotel-price">От 3000 ₽</p>
-              <a href="#" class="button button-light">Подробнее</a>
-              <button class="button" type="submit">В избранное</button>
-        </figure>
-        <div class="rating">
-          <img class="stars" src="#" alt="Изображение 3 звезд">
-          <h2>Рейтинг:<span>8,9</span></h2>
-        </div>
-
-        <figure class="Hotel">
-          <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение горы">
-          <figcaption class="Hotel-image-desription"></figcaption>
-            <h2 class="Hotel-title">Villas at Poco Diablo</h2>
-             <span class="Hotel-word">Апартаменты</span>
-              <p class="Hotel-price">От 2000 ₽</p>
-              <a href="#" class="button button-light">Подробнее</a>
-              <!-- Даем уникальный класс, чтобы передать зеленый цвет -->
-              <button class="button button-selected" type="submit">В избранном</button>
-        </figure>
-        <div class="rating">
-          <img class="stars" src="#" alt="Изображение 2 звезд">
-          <p>Рейтинг:<span>9,2</span></p>
-        </div>
-
-        <figure class="Hotel">
-          <img class="Hotel-image" src="#" width="180" height="120" alt="Изображение дороги">
-          <figcaption class="Hotel-image-desription"></figcaption>
-            <h2 class="Hotel-title">GreenTree Inn</h2>
-             <span class="Hotel-word">Гостиница</span>
-              <p class="Hotel-price">От 3000 ₽</p>
-              <a href="#" class="button button-light">Подробнее</a>
-              <button class="button" type="submit">В избранное</button>
-        </figure>
-        <div class="rating">
-          <img class="stars" src="#" alt="Изображение 2 звезд">
-          <p>Рейтинг:<span>9,2</span></p>
-        </div>
-
-        <section>
-          <button class="button button-light">Загрузить еще</button>
-          <ul>
-            <!-- Нельзя писать все ссылки в одном теге, иначе все будет склеяно
+        <button class="button button-light">Загрузить еще</button>
+        <ul>
+          <!-- Нельзя писать все ссылки в одном теге, иначе все будет склеяно
             и ты не сможешь задать расстояние -->
-            <li>
-              <a href="#" class="button button-light">1</a>
-            </li>
-            <li>
-              <a href="#" class="button button-light">2</a>
-            </li>
-            <li>
-              <a href="#" class="button button-light">3</a>
-            </li>
-            <li>
-              <a href="#" class="button button-light">4</a>
-            </li>
-            <li>
-              <a href="#" class="button button-light">...</a>
-            </li>
-            <li>
-              <a href="#" class="button button-light">10</a>
-            </li>
+          <li>
+            <a href="#" class="button button-light">1</a>
+          </li>
+          <li>
+            <a href="#" class="button button-light">2</a>
+          </li>
+          <li>
+            <a href="#" class="button button-light">3</a>
+          </li>
+          <li>
+            <a href="#" class="button button-light">4</a>
+          </li>
+          <li>
+            <a href="#" class="button button-light">...</a>
+          </li>
+          <li>
+            <a href="#" class="button button-light">10</a>
+          </li>
           <form class="sorting-type">
             <label for="sorting">Гостиниц на странице</label>
             <select class="select-control" id="sorting" name="sorting">
@@ -236,40 +239,40 @@
               <option value="popular">4</option>
             </select>
           </form>
-            </li>
-         </ul>
-        </section>
-        <section class="subscribe">
-          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-           <p class="subscribe-description">Только полезная информация и никакого спама,честное бойскаутское!</p>
-          <div>
-            <input type="text" placeholder="Ваш e-mail">
-            <button class="subscribe-button" type="submit">Подписаться</button>
-          </div>
-        </section>
-       </main>
-     <footer>
-      <ul class="footer-social-list">
-        <li class="footer-social-item">
-          <a class="footer-social-link" href="#">
-            <span class="visually-hidden">Твиттер</span>
-          </a>
-        </li>
-        <li class="footer-social-item">
-          <a class="footer-social-link" href="#">
-            <span class="visually-hidden">Фейсбук</span>
-          </a>
-        </li>
-        <li class="footer-social-item">
-          <a class="footer-social-link" href="#">
-            <span class="visually-hidden">Ютуб</span>
-          </a>
-        </li>
-      </ul>
-      <a href="tel:+78128121212">+7 (812)-812-12-12</a>
-      <span class="logo-html">
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
-      </span>
+          </li>
+        </ul>
+      </section>
+      <section class="subscribe">
+        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <p class="subscribe-description">Только полезная информация и никакого спама,честное бойскаутское!</p>
+        <div>
+          <input type="text" placeholder="Ваш e-mail">
+          <button class="subscribe-button" type="submit">Подписаться</button>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="#">
+          <span class="visually-hidden">Твиттер</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="#">
+          <span class="visually-hidden">Фейсбук</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="footer-social-link" href="#">
+          <span class="visually-hidden">Ютуб</span>
+        </a>
+      </li>
+    </ul>
+    <a href="tel:+78128121212">+7 (812)-812-12-12</a>
+    <span class="logo-html">
+      <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
+    </span>
 
   </footer>
 
