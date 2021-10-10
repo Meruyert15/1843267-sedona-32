@@ -40,11 +40,11 @@ body{
 }
 
 .main-index {
-    color:#81B3D3,#766458;
+    color:#81B3D3;
     background-color: #FFFFFF;
     background-image:url("image/index-background.jpg");
-    background-image:url("image/welcome.svg");
-
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .intro{
@@ -57,13 +57,20 @@ body{
     color:#000000;
     background-color: #FFFFFF;
     text-decoration: none;
-    text-transform: uppercase;
     
+    }
+    .intro-title{
+    text-transform: uppercase;
+}
 }
 .intro-description{
-    font-family:inherited;
-    font-weight: 400;
+    font-family:"PT-Sans", sans-serif;
     font-size: 22px;
     line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    color:#000000;
+    background-color: #FFFFFF;
+    text-decoration: none;
     text-transform: lowercase;
 }
