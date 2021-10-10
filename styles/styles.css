@@ -18,7 +18,6 @@
 
 body{
     font-family: "PT-Sans", sans-serif;
-    
     font-size: 18px;
     line-height: 21px;
     color:#000000;
@@ -44,5 +43,27 @@ body{
     color:#81B3D3,#766458;
     background-color: #FFFFFF;
     background-image:url("image/index-background.jpg");
+    background-image:url("image/welcome.svg");
 
+}
+
+.intro{
+    font-family: "PT-Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color:#000000;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.intro-description{
+    font-family:inherited;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: lowercase;
 }
