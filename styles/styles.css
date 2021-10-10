@@ -39,3 +39,10 @@ body{
     text-decoration: none;
     text-transform: lowercase;
 }
+
+.main-index {
+    color:#81B3D3,#766458;
+    background-color: #FFFFFF;
+    background-image:url("image/index-background.jpg");
+
+}
