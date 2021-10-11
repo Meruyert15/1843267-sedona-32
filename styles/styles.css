@@ -139,13 +139,13 @@ body{
 }
 
 .subscribe-button {
-
 color: #FFFFFF; 
 font-weight: bold;
 font-size: 20px;
 line-height: 26px;
 text-align: center;
 text-transform: uppercase;
+background: #83B3D3;
 
 }
 
