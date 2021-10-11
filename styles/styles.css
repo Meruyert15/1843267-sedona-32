@@ -176,3 +176,25 @@ background: #83B3D3;
     line-height: 21px;
 
   }
+
+  .service{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color:#FFFFFF;
+
+  }
+
+  .filter-title{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color:#FFFFFF;
+
+
+  }
+
