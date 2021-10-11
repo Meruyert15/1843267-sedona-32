@@ -87,6 +87,7 @@ body{
     color:#FFFFFF;
     background-color:#83B3D3;
     text-decoration: none;
+}
     
     
     .advantages-title{
@@ -94,15 +95,47 @@ body{
 
     }
     
-   .advantages-description
+   .advantages-description{
     font-family: "PT-Sans", sans-serif;
     font-size: 18px;
-    line-height: 21px;
+    line-height:21px;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     color:#FFFFFF;
     background-color:#83B3D3;
     text-decoration: none;
-    
 }
+
+.container-list-title{
+    font-family: "PT-Sans", sans-serif;
+    font-size: 24px;
+    line-height:28px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color:black;
+    background-color:#83B3D3;
+    text-decoration: none;
+
+}
+
+.container-list-paragraph{
+    font-size: 18px;
+    line-height:21px;
+    font-weight: 400;
+    background-color:#83B3D3;
+    text-align: center;
+
+}
+
+.subscribe{
+    color:#FFFFFF;
+    background-color: #000000;
+    background-image:url("../image/background.jpg");
+    background-size: width: 1200px; height: 411px;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+
