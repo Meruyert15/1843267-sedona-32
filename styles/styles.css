@@ -87,8 +87,22 @@ body{
     color:#FFFFFF;
     background-color:#83B3D3;
     text-decoration: none;
-    text-transform: uppercase;
     
+    
+    .advantages-title{
+    text-transform: uppercase;  
 
-
+    }
+    
+   .advantages-description
+    font-family: "PT-Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:#FFFFFF;
+    background-color:#83B3D3;
+    text-decoration: none;
+    
 }
