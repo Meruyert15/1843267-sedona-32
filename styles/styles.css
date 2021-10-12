@@ -158,6 +158,7 @@ background: #83B3D3;
     background-size: width: 1200px height: 408px;
  
   }
+/* фон не отображается на полный размер*/
 
   .inner-header-title{
     font-family: "PT-Sans", sans-serif;
@@ -184,6 +185,7 @@ background: #83B3D3;
     font-size: 20px;
     line-height: 26px;
     color:#FFFFFF;
+    /* цвет шрифта белый, поэтому на фоне не отобразился*/
 
   }
 
