@@ -59,14 +59,6 @@ body {
   padding-bottom: 83px;
 }
 
-.inner-container::after {
-  content: "";
-  position: absolute;
-  background-image: url("../image/divider.svg");
-  background-size: 100% 57px;
-  background-repeat: no-repeat;
-  bottom: 0;
-}
 
 .intro {
   font-family: "PT-Sans", sans-serif;
