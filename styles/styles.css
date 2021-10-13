@@ -1,202 +1,223 @@
-@font-face{
-    font-family: "PT-Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/ptsans-400.woff2") format("woff2");
-    font-display: swap;
+@font-face {
+  font-family: "PT-Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/PTSans-Regular.woff2") format("woff2"),
+       url("../fonts/PTSans-Regular.woff") format("woff");
+  font-display: swap;
 }
 
 
-@font-face{
-    font-family: "PT-Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/ptsans-700.woff2") format("woff2");
-    font-display: swap;
+@font-face {
+  font-family: "PT-Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/PTSans-Bold.woff2") format("woff2"),
+       url("../fonts/PTSans-Bold.woff") format("woff");
+  font-display: swap;
 }
 
 
-body{
-    font-family: "PT-Sans", sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    color:#000000;
-    background-color: #FFFFFF;
+body {
+  width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: "PT-Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .page-header {
-    color:black;
-    background-color:#FFFFFF;
+  color: black;
+  background-color: #FFFFFF;
 }
 
 .navigation-link {
-    font-family: PT Sans;
-    font-size: 20px;
-    line-height: 26px;
-    color:#000000;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: lowercase;
+  font-family: PT Sans;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: lowercase;
 }
 
 .inner-container {
-    color:#81B3D3;
-    background-color: #FFFFFF;
-    background-image: url("../image/index-background.jpg"), url("../image/divider.svg");
-    background-size: 1200px 485px, 100% 57px;
-    text-align: center;
-    background-repeat: no-repeat;
-    padding-top: 51px;
+  color: #81B3D3;
+  background-color: #FFFFFF;
+  background-image: url("../image/divider.svg"), url("../image/index-background.jpg");
+  background-size: auto, 1200px 485px;
+  background-position: bottom;
+  background-repeat: no-repeat, no-repeat;
+  text-align: center;
+  padding-top: 51px;
+  padding-bottom: 83px;
 }
+
+/* .inner-container::after {
+  content: "";
+  position: absolute;
+  background-image: url("../image/divider.svg");
+  background-size: 100% 57px;
+  background-repeat: no-repeat;
+  bottom: 0;
+} */
 
 .intro {
-    font-family: "PT-Sans", sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    color:#000000;
-    background-color: #FFFFFF;
-    text-decoration: none;
-    
-    }
-    .intro-title{
-    text-transform: uppercase;
-}
-
-.intro-description{
-    font-family:"PT-Sans", sans-serif;
-    font-size: 22px;
-    line-height: 36px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    color:#000000;
-    background-color: #FFFFFF;
-    text-decoration: none;
-    
-}
-
-.advantages{
-    font-family: "PT-Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    color:#FFFFFF;
-    background-color:#83B3D3;
-    text-decoration: none;
-}
-    
-    
-    .advantages-title{
-    text-transform: uppercase;  
-
-    }
-    
-   .advantages-description{
-    font-family: "PT-Sans", sans-serif;
-    font-size: 18px;
-    line-height:21px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    color:#FFFFFF;
-    background-color:#83B3D3;
-    text-decoration: none;
-}
-
-.container-list-title{
-    font-family: "PT-Sans", sans-serif;
-    font-size: 24px;
-    line-height:28px;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    color:black;
-    background-color:#83B3D3;
-    text-decoration: none;
-    text-transform: uppercase;
+  font-family: "PT-Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
 
 }
 
-.container-list-paragraph{
-    font-size: 18px;
-    line-height:21px;
-    font-weight: 400;
-    background-color:#83B3D3;
-    text-align: center;
+.intro-title {
+  text-transform: uppercase;
+}
+
+.intro-description {
+  font-family: "PT-Sans", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
 
 }
 
-.subscribe{
-    color:#FFFFFF;
-    background-color: #000000;
-    background-image:url("../image/background.jpg");
-    background-size: width: 1200px; height: 411px;
-    background-repeat: no-repeat;
-    text-align: center;
+.advantages {
+  font-family: "PT-Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+}
+
+
+.advantages-title {
+  text-transform: uppercase;
+
+}
+
+.advantages-description {
+  font-family: "PT-Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+}
+
+.container-list-title {
+  font-family: "PT-Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  background-color: #83B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.container-list-paragraph {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  background-color: #83B3D3;
+  text-align: center;
+
+}
+
+.subscribe {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("../image/background.jpg");
+  background-size: width: 1200px;
+  height: 411px;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .subscribe-button {
-color: #FFFFFF; 
-font-weight: bold;
-font-size: 20px;
-line-height: 26px;
-text-align: center;
-text-transform: uppercase;
-background: #83B3D3;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #83B3D3;
 
 }
 
 .inner-header {
 
-    color:#FFFFFF;
-    background-color:#000000;
-    background-image:url("../image/catalog/catalog-background.jpg");
-    background-size: width: 1200px height: 408px;
- 
-  }
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("../image/catalog/catalog-background.jpg");
+  background-size: width: 1200px height: 408px;
+
+}
+
 /* фон не отображается на полный размер*/
 
-  .inner-header-title{
-    font-family: "PT-Sans", sans-serif;
-    font-size: 60px;
-    line-height:78px;
-    font-weight: 400;
-    color:#FFFFFF;
+.inner-header-title {
+  font-family: "PT-Sans", sans-serif;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 400;
+  color: #FFFFFF;
 
-  }
+}
 
-  .inner-header-hotels{
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
+.inner-header-hotels {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
 
-  }
+}
 
-  .service{
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color:#FFFFFF;
-    /* цвет шрифта белый, поэтому на фоне не отобразился*/
+.service {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  /* цвет шрифта белый, поэтому на фоне не отобразился*/
 
-  }
+}
 
-  .filter-title{
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color:#FFFFFF;
+.filter-title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
 
-  }
-
+}
