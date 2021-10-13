@@ -98,13 +98,16 @@ body {
   font-style: normal;
   text-align: center;
   color: #FFFFFF;
-  background-color: #83B3D3;
   text-decoration: none;
+}
+.advantages-image-desc {
+  background-color: #83B3D3;
 }
 
 
 .advantages-title {
   text-transform: uppercase;
+  
 
 }
 
@@ -121,24 +124,32 @@ body {
 }
 
 .container-list {
-  background: rgba(131, 179, 211, 0.12); 
-   
-}
-
-.container-list-title {
-  font-family: "PT-Sans", sans-serif;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 700;
+  font-family: PT Sans, sans-serif;
   font-style: normal;
-  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
   color: black;
   text-decoration: none;
-  text-transform: uppercase;
-  
-
+  background: rgba(131, 179, 211, 0.12);  
+  padding-top: 98px;
+  padding-bottom: 226px;
 }
+  .container-list-title {
+  text-transform: uppercase;
+ }
 
+ .container-list-paragraph {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;   
+  text-align: center;   
+  color: #333333;
+
+ }
 
 .subscribe {
   color: #FFFFFF;
