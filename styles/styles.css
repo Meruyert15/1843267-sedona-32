@@ -140,6 +140,10 @@ body {
   text-transform: uppercase;
  }
 
+.container-list-food {
+   background-color: #FFFFFF;
+ }
+
  .container-list-paragraph {
   font-family: PT Sans;
   font-style: normal;
