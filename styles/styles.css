@@ -92,8 +92,9 @@ body {
 
 .advantages {
   background-color: #83B3D3;
+  text-align: center;
 }
-.advantages-number {
+.advantages-number-white{
 font-family: PT Sans;
 font-style: normal;
 font-weight: normal;
@@ -118,7 +119,7 @@ text-align: center;
 
 }
 
-.advantages-title-decription {
+.advantages-title-desc {
   font-family: PT Sans, sans-serif;
   font-size: 18px;
   line-height: 21px;
