@@ -116,7 +116,6 @@ text-transform: uppercase;
 color: #FFFFFF;
 text-align: center; 
 
-
 }
 
 .advantages-title-desc {
@@ -161,6 +160,12 @@ text-align: center;
 
  }
 
+ .interesting {
+  text-align: center;
+  padding-top: 91px;
+  padding-bottom: 108px;
+ }
+
 .subscribe {
   color: #FFFFFF;
   background-color: #000000;
@@ -169,6 +174,14 @@ text-align: center;
   height: 411px;
   background-repeat: no-repeat;
   text-align: center;
+  
+}
+
+.subscribe-title {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+
 }
 
 .subscribe-button {
@@ -190,8 +203,6 @@ text-align: center;
   background-size: width: 1200px height: 408px;
 
 }
-
-
 
 .inner-header-title {
   font-family: PT Sans, sans-serif;
