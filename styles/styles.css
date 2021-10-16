@@ -199,7 +199,8 @@ color:black;
   color: #FFFFFF;
   background-color: #000000;
   background-image: url("../image/catalog/catalog-background.jpg");
-  background-size: width: 1200px height: 408px;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
