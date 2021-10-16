@@ -94,22 +94,28 @@ body {
   background-color: #83B3D3;
   text-align: center;
 }
-.advantages-number-white{
+.number {
 font-family: PT Sans;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 color: #FFFFFF;
 text-align: center;
 
 }
+.number-black {
+  text-align: center;
+  color:black;
+  font-weight: 400;
 
-.advantages-title {
+}
+
+.paragraph-great{
 
 font-family: PT Sans;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 24px;
 line-height: 28px;
 text-transform: uppercase;
@@ -118,7 +124,7 @@ text-align: center;
 
 }
 
-.advantages-title-desc {
+.paragraph-small {
   font-family: PT Sans, sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -127,6 +133,22 @@ text-align: center;
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.paragraph-great-black {
+color:black;
+
+}
+
+.paragraph-small-black {
+  font-weight: 400;
+  font-style: normal;
+  color:black;
+}
+
+.paragraph-small-white {
+  text-align: center;
+  color:#FFFFFF;
 }
 
 .container-list {
@@ -149,22 +171,7 @@ text-align: center;
    background-color: #FFFFFF;
  }
 
- .container-list-paragraph {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;   
-  text-align: center;   
-  color: #333333;
-
- }
-
- .interesting {
-  text-align: center;
-  padding-top: 91px;
-  padding-bottom: 108px;
- }
+ 
 
 .subscribe {
   color: #FFFFFF;
@@ -174,14 +181,6 @@ text-align: center;
   height: 411px;
   background-repeat: no-repeat;
   text-align: center;
-  
-}
-
-.subscribe-title {
-  text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
-
 }
 
 .subscribe-button {
@@ -196,13 +195,15 @@ text-align: center;
 }
 
 .inner-header {
+
   color: #FFFFFF;
   background-color: #000000;
-  background-image: url(..//image/catalog/catalog-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-    
+  background-image: url("../image/catalog/catalog-background.jpg");
+  background-size: width: 1200px height: 408px;
+
 }
+
+
 
 .inner-header-title {
   font-family: PT Sans, sans-serif;
@@ -229,7 +230,7 @@ text-align: center;
   font-size: 20px;
   line-height: 26px;
   color: #FFFFFF;
-  /* цвет шрифта белый, поэтому на фоне не отобразился*/
+
 
 }
 
@@ -241,4 +242,8 @@ text-align: center;
   line-height: 26px;
   color: #FFFFFF;
 
+}
+
+.interesting {
+  text-align: center;
 }
