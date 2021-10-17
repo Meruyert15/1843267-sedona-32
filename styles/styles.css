@@ -49,14 +49,14 @@ margin: auto 0;
 
 
 .navigation-list {
-  width: 300px;
+  width: 530px;
   margin: 0;
   padding: 0;
 }
 
 
 .navigation-user {
-  max-width: 200px;
+  max-width: 100px;
   margin-left: auto;
 }
 
@@ -72,11 +72,8 @@ margin: auto 0;
 }
 
 .logo {
-  width: 138px;
-  left: 0%;
-right: 0%;
-top: 0%;
-bottom: -0.07%;
+  display: block;
+  margin: auto;
   
 }
 
@@ -124,8 +121,8 @@ bottom: -0.07%;
 }
 
 .advantages {
-  display: flex;
-  justify-content: flex-start;
+ display: flex;
+ 
   background-color: #83B3D3;
   text-align: center;
 }
@@ -197,6 +194,8 @@ color:black;
   background: rgba(131, 179, 211, 0.12);  
   padding-top: 89px;
   padding-bottom: 79px;
+  display: flex;
+  justify-content: space-between;
 }
   .container-list-title {
   text-transform: uppercase;
