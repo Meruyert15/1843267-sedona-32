@@ -184,18 +184,15 @@ color:black;
 }
 
 .container-list {
-  font-family: PT Sans, sans-serif;
-  font-style: normal;
-  font-weight: bold;
+   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
   color: black;
   background: rgba(131, 179, 211, 0.12);  
-  padding-top: 89px;
-  padding-bottom: 79px;
   display: flex;
   justify-content: space-between;
+  
 }
   .container-list-title {
   text-transform: uppercase;
@@ -203,7 +200,8 @@ color:black;
 
 .container-list-food {
    background-color: #FFFFFF;
- }
+   background-size: cover;
+    }
 
  
 
