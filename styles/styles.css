@@ -184,7 +184,7 @@ color:black;
 }
 
 .container-list {
-   font-weight: bold;
+  font-weight: bold;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -192,9 +192,14 @@ color:black;
   background: rgba(131, 179, 211, 0.12);  
   display: flex;
   justify-content: space-between;
-  
+    
 }
-  .container-list-title {
+
+.container-item {
+  width: 400px;
+}
+
+.container-list-title {
   text-transform: uppercase;
  }
 
