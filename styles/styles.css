@@ -89,10 +89,12 @@ margin: auto 0;
   
 }
 .city {
-  width: 400px;
+  width:400px;
+  
 }
   .advantages-image {
   width: 800px;
+  
 }
 
 .intro {
@@ -132,6 +134,7 @@ margin: auto 0;
  display: flex;
  background-color: #83B3D3;
  text-align: center;
+ margin: 0%;
  
 }
 .number {
@@ -194,9 +197,11 @@ text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   margin: 0;
+  padding: 0;
   border-width: 0;
   border-style: solid;
   border-color: #6a6a6a;
+  
     
 }
 
@@ -217,6 +222,10 @@ text-transform: uppercase;
    background-color:#FFFFFF ;
  }
 
+ .container-list-way {
+  background: #83B3D334;
+
+ }
 
 .subscribe {
   color: #FFFFFF;
