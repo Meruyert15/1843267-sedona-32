@@ -27,7 +27,6 @@ body {
   padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
-
   font-family: "PT-Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -259,7 +258,6 @@ text-transform: uppercase;
 }
 
 
-
 .inner-header-title {
   font-family: PT Sans, sans-serif;
   font-size: 60px;
@@ -286,7 +284,6 @@ text-transform: uppercase;
   line-height: 26px;
   color: #FFFFFF;
 
-
 }
 
 .filter-title {
@@ -306,8 +303,18 @@ text-transform: uppercase;
   padding-top: 91px;
 }
 
+.interesting-title {
+  text-transform: uppercase;
+}
+
 .subscribe-title {
   padding-top: 94px;
 
+}
 
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
 }
