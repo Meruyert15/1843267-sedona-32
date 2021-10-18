@@ -127,6 +127,7 @@ margin: auto 0;
  display: flex;
  background-color: #83B3D3;
  text-align: center;
+ 
 }
 .number {
 font-family: PT Sans;
@@ -141,6 +142,7 @@ text-align: center;
 
 .paragraph-great {
   color: #FFFFFF;
+  padding-top: 98px;
 
 }
 
@@ -192,13 +194,18 @@ text-transform: uppercase;
 .container-list-item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 400px;
   height: 384px;
+  align-items: center;
+  padding-top: 98px;
 }
 
 .container-list-title {
   text-transform: uppercase;
+ }
+
+ .container-list-food {
+   background-color:#FFFFFF ;
  }
 
 
