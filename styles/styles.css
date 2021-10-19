@@ -68,6 +68,7 @@ margin: auto 0;
   font-weight: bold;
   text-decoration: none;
   text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 .logo {
