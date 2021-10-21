@@ -74,6 +74,8 @@ margin: auto 0;
 .logo {
   display: block;
   margin: auto;
+  width: 138px;
+  height: 78px;
   
 }
 
@@ -115,6 +117,8 @@ margin: auto 0;
 
 .intro-title {
   text-transform: uppercase;
+  margin: 0;
+  
 }
 
 .intro-description {
@@ -127,6 +131,7 @@ margin: auto 0;
   color: #000000;
   background-color: #FFFFFF;
   text-decoration: none;
+  margin-bottom: 0;
 
 }
 
