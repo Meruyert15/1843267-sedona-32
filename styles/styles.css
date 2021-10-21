@@ -153,13 +153,13 @@ text-align: center;
 
 }
 
-.paragraph-great {
+.title-great {
   color: #FFFFFF;
   padding-top: 98px;
 
 }
 
-.paragraph-small {
+.title-small {
   font-family: PT Sans, sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -170,7 +170,7 @@ text-align: center;
   text-decoration: none;
 }
 
-.paragraph-great-black {
+.title-great-black {
 color:black;
 text-transform: uppercase;
 
@@ -181,13 +181,13 @@ text-transform: uppercase;
   font-weight: 400;
 }
 
-.paragraph-small-black {
+.title-small-black {
   font-weight: 400;
   font-style: normal;
   color:black;
 }
 
-.paragraph-small-white {
+.title-small-white {
   text-align: center;
   color:#FFFFFF;
 }
