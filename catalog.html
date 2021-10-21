@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/outline.css">
+  <link rel="stylesheet" href="styles/outline-settings.css">
 </head>
 
 <body>
@@ -14,24 +16,29 @@
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="main.html">Главная</a>
+          <a class="navigation-link" href="main.html">главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="about-sedona.html">О Седоне</a>
+          <a class="navigation-link" href="about-sedona.html">о седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="hotels.html">Гостиницы</a>
+          <a class="navigation-link" href="hotels.html">гостиницы</a>
         </li>
       </ul>
-      <img class="logo" src="image/sedona.svg" alt="Логотип Седона" width="138" height="70"/>
+
+      <div class="logo">
+        <img class="logo" src="image/sedona.svg" alt="Логотип Седона" width="138" height="78"/>
+      </div>
+
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
-          <img class="navigation-list" src="image/search.svg" alt="Поиск" width="18" height="18"/>
+          <a class="navigation-item" href="#">
           <span class="visually-hidden"> Поиск </span>
+          </a>
         </li>
         
         <li class="navigation-item">
-          <img class="navigation-list" src="image/like.svg" alt="Поиск" width="19" height="19"/>
+          <a class="navigation-item" href="#">
             <span class="visually-hidden"> Избранное </span>
           </a>
         </li>
