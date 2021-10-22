@@ -306,8 +306,8 @@ body {
   margin: 0 auto;
 }
 
-.service {
+.all-service{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   
 }
