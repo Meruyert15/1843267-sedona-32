@@ -73,8 +73,8 @@ margin: auto 0;
 
 .logo {
   display: block;
-
-   
+  padding-left: 220px ;
+  
   
 }
 
@@ -338,7 +338,6 @@ text-transform: uppercase;
 
 .all-service {
   display: flex;
-  justify-content: space-around;
-
+  justify-content: space-between;
 
 }
