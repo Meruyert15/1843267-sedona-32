@@ -3,17 +3,16 @@
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/PTSans-Regular.woff2") format("woff2"),
-       url("../fonts/PTSans-Regular.woff") format("woff");
+    url("../fonts/PTSans-Regular.woff") format("woff");
   font-display: swap;
 }
-
 
 @font-face {
   font-family: PT Sans;
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/PTSans-Bold.woff2") format("woff2"),
-       url("../fonts/PTSans-Bold.woff") format("woff");
+    url("../fonts/PTSans-Bold.woff") format("woff");
   font-display: swap;
 }
 
@@ -31,34 +30,29 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .page-header {
   color: black;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .navigation {
-display: flex;
-width: 1200px;
-margin: auto 0;
-
+  display: flex;
+  width: 1200px;
+  margin: auto 0;
 }
 
-
 .navigation-list {
-  
   margin: 0;
   padding: 0;
 }
-
 
 .navigation-user {
   max-width: 100px;
   margin-left: auto;
 }
-
 
 .navigation-link {
   font-family: PT Sans;
@@ -73,22 +67,19 @@ margin: auto 0;
 
 .logo {
   display: block;
-  padding-left: 220px ;
-  
-  
+  padding-left: 220px;
 }
 
 .inner-container {
-  color: #81B3D3;
-  background-color: #FFFFFF;
-  background-image: url("../image/divider.svg"), url("../image/index-background.jpg");
-  width: 1200px; 
+  color: #81b3d3;
+  background-color: #ffffff;
+  background-image: url("../image/divider.svg"),
+    url("../image/index-background.jpg");
+  width: 1200px;
   height: 485px;
   background-position: bottom;
   background-repeat: no-repeat, no-repeat;
   text-align: center;
- 
-  
 }
 
 .welcome {
@@ -96,12 +87,10 @@ margin: auto 0;
 }
 
 .city {
-  width:400px;
-  
+  width: 400px;
 }
-  .advantages-image {
+.advantages-image {
   width: 800px;
-  
 }
 
 .intro {
@@ -112,19 +101,17 @@ margin: auto 0;
   font-style: normal;
   text-align: center;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   text-decoration: none;
-  width:1200px;
-  height:282px;
-  padding-top: 63px;  
-
+  width: 1200px;
+  height: 282px;
+  padding-top: 63px;
 }
 
 .intro-title {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 23px;
-  
 }
 
 .intro-description {
@@ -135,38 +122,34 @@ margin: auto 0;
   font-style: normal;
   text-align: center;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   text-decoration: none;
   margin-bottom: 0;
-
 }
 
 .advantages {
- display: flex;
- background-color: #83B3D3;
- text-align: center;
- margin: 0%;
- 
+  display: flex;
+  background-color: #83b3d3;
+  text-align: center;
+  margin: 0%;
 }
 .number {
-font-family: PT Sans;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-color: #FFFFFF;
-text-align: center;
-
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .title-great {
-font-size: 30px;
-font-weight: 700px;
-line-height: 36px;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-top: 98px;
-
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 98px;
 }
 
 .title-small {
@@ -176,40 +159,39 @@ padding-top: 98px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .title-great-black {
-color:black;
-text-transform: uppercase;
-
+  color: black;
+  text-transform: uppercase;
 }
 .number-black {
   text-align: center;
-  color:black;
+  color: black;
   font-weight: 400;
 }
 
 .title-small-black {
   font-weight: 400;
   font-style: normal;
-  color:black;
+  color: black;
   margin: 0px;
 }
 
 .title-small-white {
   text-align: center;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 
-.container-list-list{
+.container-list-list {
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
   color: black;
-  background: rgba(131, 179, 211, 0.12);  
+  background: rgba(131, 179, 211, 0.12);
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -217,8 +199,6 @@ text-transform: uppercase;
   border-width: 0;
   border-style: solid;
   border-color: #6a6a6a;
-  
-    
 }
 
 .container-list-item {
@@ -232,19 +212,18 @@ text-transform: uppercase;
 
 .container-list-title {
   text-transform: uppercase;
- }
+}
 
- .container-list-food {
-   background-color:#FFFFFF ;
- }
+.container-list-food {
+  background-color: #ffffff;
+}
 
- .container-list-way {
-  background: #83B3D334;
-
- }
+.container-list-way {
+  background: #83b3d334;
+}
 
 .subscribe {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
   background-image: url("../image/background.jpg");
   width: 1200px;
@@ -254,34 +233,29 @@ text-transform: uppercase;
 }
 
 .subscribe-button {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
-  background: #83B3D3;
-
+  background: #83b3d3;
 }
 
 .inner-header {
-
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
   background-image: url("../image/catalog/catalog-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
-
 
 .inner-header-title {
   font-family: PT Sans, sans-serif;
   font-size: 60px;
   line-height: 78px;
   font-weight: 400;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .inner-header-hotels {
@@ -290,7 +264,6 @@ text-transform: uppercase;
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
-
 }
 
 .service {
@@ -299,8 +272,7 @@ text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .filter-title {
@@ -309,8 +281,7 @@ text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .interesting {
@@ -326,7 +297,6 @@ text-transform: uppercase;
 
 .subscribe-title {
   padding-top: 94px;
-
 }
 
 .page-footer-container {
@@ -339,5 +309,4 @@ text-transform: uppercase;
 .all-service {
   display: flex;
   justify-content: space-between;
-
 }
