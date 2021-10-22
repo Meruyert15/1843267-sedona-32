@@ -47,6 +47,9 @@ body {
 .navigation-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content:space-between;
 }
 
 .navigation-user {
@@ -248,6 +251,14 @@ body {
   background-image: url("../image/catalog/catalog-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  width: 1200px;
+}
+
+.header-container {
+  padding-top: 35px;
+  padding-left:71px ;
+  padding-right: 72px;
+  padding-bottom: 83px ;
 }
 
 .inner-header-title {
@@ -266,6 +277,11 @@ body {
   line-height: 21px;
 }
 
+.all-service {
+  display: flex;
+  justify-content: space-between;
+}
+
 .service {
   font-family: PT Sans;
   font-style: normal;
@@ -273,6 +289,21 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #ffffff;
+  width: 150px;
+}
+
+.filter-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lodging {  
+  width: 170px;
+}
+
+.price {
+  width: 287px;
 }
 
 .filter-title {
@@ -282,6 +313,13 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #ffffff;
+}
+
+.apply-reset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 160px;
 }
 
 .interesting {
@@ -304,10 +342,4 @@ body {
   width: 1200px;
   height: 120px;
   margin: 0 auto;
-}
-
-.all-service{
-  display: flex;
-  justify-content: space-between;
-  
 }
