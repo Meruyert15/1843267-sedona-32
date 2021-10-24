@@ -347,12 +347,26 @@ body {
   margin: 0 auto;
 }
 
-.sorting-type {
+
+.hotel {
+  border-width: 1px;
+  border-style: solid;
+  border-color:#E5E5E5;
+  width: 1200px; 
+  margin: 0px;
+}
+
+.rating {
   display: flex;
   justify-content: flex-end;
 }
 
-.button-sorting {
-  display: flex;
-  justify-content: flex-end;
+.button-blue {
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color:#E5E5E5;
+  width: 1200px; 
+  margin: 0px;
+
 }
