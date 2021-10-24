@@ -354,6 +354,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 1057px;
+  padding-top: 44px;
 
 }
 
@@ -361,22 +362,35 @@ body {
   width: 100px;
 }
 
+.hotel-catalog {
+  padding-right:71px;
+  padding-left:72px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+}
 
 .hotel {
   border-width: 1px;
   border-style: solid;
   border-color:#E5E5E5;
   width: 1057px; 
-  padding-right:71px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  
+  margin: 0px;
+    
 }
 
 .rating {
   display: flex;
   justify-content: flex-end;
   padding-left: 72px;
+  margin: 0px;
+  
+  
+}
+.stars {
+  widht: 505px;
+  margin: 0px;
+  
 }
 
 .button-blue {
