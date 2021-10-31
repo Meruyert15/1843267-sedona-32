@@ -427,3 +427,18 @@ body {
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
 }
+
+.tel-number {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000000;
+
+}
+
+.logo-html {
+  padding-top: 42px;
+  padding-bottom: 44px;
+  margin-right: 72px;
+}
