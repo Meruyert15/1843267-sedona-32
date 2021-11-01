@@ -379,18 +379,16 @@ body {
     
 }
 
+.rating-stars {
+  display: flex;
+  justify-content: flex-end;
+  
+   
+}
+
 .rating {
   display: flex;
   justify-content: flex-end;
-  padding-left: 72px;
-  margin: 0px;
-  
-  
-}
-.rating-stars {
-  width: 505px;
-  margin: 0px;
-  
 }
 
 .show-more {
