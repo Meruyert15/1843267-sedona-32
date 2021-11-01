@@ -376,19 +376,21 @@ body {
   border-color:#E5E5E5;
   width: 1057px; 
   margin: 0px;
+  padding-top: 34px;
     
 }
 
 .rating-stars {
   display: flex;
   justify-content: flex-end;
-  
-   
+  padding-right: 107px;
+    
 }
 
 .rating {
   display: flex;
   justify-content: flex-end;
+  padding-right: 72px;
 }
 
 .show-more {
