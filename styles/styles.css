@@ -379,6 +379,25 @@ body {
   
 }
 
+.hotel-list {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+ .hotel-list-all {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #E6E6E6;
+    
+}
+
+.hotel-item {
+  list-style-type: none;
+}
+
+
 .hotel {
   border-width: 1px;
   border-style: solid;
@@ -388,6 +407,7 @@ body {
   padding-top: 34px;
 
 }
+
 
 .rating-stars {
   display: flex;
