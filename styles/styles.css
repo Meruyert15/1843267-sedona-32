@@ -388,7 +388,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-width: 1px;
-  border-style: solid;
+  border-top-style: solid;
   border-color:#E5E5E5;
   width: 1057px;
   padding-top: 34px;
