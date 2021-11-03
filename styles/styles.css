@@ -374,9 +374,7 @@ body {
 .hotel-catalog {
   padding-right:71px;
   padding-left:72px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  
+   
 }
 
 .hotel-list {
@@ -389,7 +387,12 @@ body {
  .hotel-list-all {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #E6E6E6;
+  border-width: 1px;
+  border-style: solid;
+  border-color:#E5E5E5;
+  width: 1057px;
+  padding-top: 34px;
+  padding-bottom: 30px;
     
 }
 
