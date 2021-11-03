@@ -20,6 +20,17 @@
   height: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
 body {
   width: 1200px;
   padding-left: 40px;
@@ -50,14 +61,12 @@ body {
   display: flex;
   justify-content:space-between;
   width: 350px;
-
-
 }
 
 .navigation-user {
   max-width: 100px;
   margin-left:200px;
-  
+
 }
 
 .navigation-link {
@@ -301,7 +310,7 @@ body {
   padding: 0;
 }
 
-.lodging {  
+.lodging {
   width: 170px;
 }
 
@@ -367,24 +376,24 @@ body {
   padding-left:72px;
   padding-top: 0px;
   padding-bottom: 0px;
-  
+
 }
 
 .hotel {
   border-width: 1px;
   border-style: solid;
   border-color:#E5E5E5;
-  width: 1057px; 
+  width: 1057px;
   margin: 0px;
   padding-top: 34px;
-    
+
 }
 
 .rating-stars {
   display: flex;
   justify-content: flex-end;
   padding-right: 107px;
-    
+
 }
 
 .rating {
@@ -395,7 +404,7 @@ body {
 
 .show-more {
   height: 100px;
-  width: 1200px; 
+  width: 1200px;
   margin: 0px;
 }
 .button-blue {
@@ -434,7 +443,7 @@ body {
 }
 
 .footer-social-item {
-  margin-right: 30px; 
+  margin-right: 30px;
   margin-bottom: 50px;
 }
 
@@ -450,7 +459,7 @@ body {
   color: #000000;
 
 }
- 
+
 .logo-html {
   padding-top: 42px;
   padding-bottom: 44px;
@@ -459,7 +468,7 @@ body {
 
 .pagination {
   display: flex;
-  padding: 16px; 
+  padding: 16px;
   background-color: #FFFFFF;
   list-style-type: none;
 }
