@@ -20,16 +20,7 @@
   height: 100%;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0)
-}
+
 
 body {
   width: 1200px;
@@ -398,6 +389,8 @@ body {
 
 .hotel-item {
   list-style-type: none;
+  align-items: center;
+  height: 230px;
 }
 
 
@@ -410,6 +403,24 @@ body {
   padding-top: 34px;
 
 }
+
+.details-item {
+  margin-right: 6px;
+  display: block;
+
+}
+
+.reserve-item a {
+  display: block;
+  margin-top: 16px;
+  padding: 3px 17px;
+  color: #ffffff;
+  background-color:  #766357;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 
 
 .rating-stars {
