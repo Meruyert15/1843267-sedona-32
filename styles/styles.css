@@ -415,12 +415,12 @@ body {
 
 .details-item {
   margin-right: 6px;
-  display: block;
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .reserve-item a {
-  display: block;
   margin-top: 16px;
   padding: 3px 17px;
   color: #ffffff;
@@ -432,24 +432,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-.button-blue {
-  
-  height: 18px;
-  width: 125px;
-  margin-bottom: 31px;
-  margin-left: 288px;
-  margin-right: 287px;
-  background-color: #83B3D3;
-}
 
-.button-green {
-  height: 18px;
-  width: 125px;
-  margin-bottom: 31px;
-  margin-left: 288px;
-  margin-right: 287px;
-  background-color: #7DB54F;
-}
 
 
 .rating-stars {
