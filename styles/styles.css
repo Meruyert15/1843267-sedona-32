@@ -391,6 +391,15 @@ body {
   list-style-type: none;
   align-items: center;
   height: 230px;
+  display: grid;
+  grid-template-columns: 300px; 
+  padding-bottom: 50px;
+  
+}
+
+
+.hotel-item:nth-child(3n) {
+  margin-left: auto;
 }
 
 
@@ -419,6 +428,7 @@ body {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 
