@@ -241,11 +241,12 @@ body {
 .subscribe-button {
   color: #ffffff;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
+  line-height: 40px;
   text-align: center;
   text-transform: uppercase;
   background: #83b3d3;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .inner-header {
