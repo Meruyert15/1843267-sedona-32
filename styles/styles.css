@@ -36,6 +36,17 @@ body {
   background-color: #ffffff;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-header {
   color: black;
   background-color: #ffffff;
@@ -52,12 +63,13 @@ body {
   list-style-type: none;
   display: flex;
   justify-content:space-between;
-  width: 350px;
+  width: 300px;
 }
 
 .navigation-user {
-  max-width: 100px;
-  margin-left:200px;
+  margin-left:150px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-icon {
@@ -70,6 +82,15 @@ body {
   fill: #D0000;
 }
 
+.button-open {
+  width: 160px;
+  height:37px;
+  color: white;
+  background-color: #756257;
+  text-transform: uppercase;
+  border:0; 
+
+}
 
 
 .navigation-link {
@@ -373,8 +394,26 @@ body {
 }
 
 .button-sorting {
-  width: 100px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  
 }
+.button-sorting ::after {
+  position: absolute;
+  content: '';
+  background-image: url("/image/mode-tile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top:0;
+}
+
+
 
 .hotel-catalog {
   padding-right:71px;
