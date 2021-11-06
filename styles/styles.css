@@ -393,15 +393,16 @@ body {
 
 }
 
-.button-sorting {
+.card-grid-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 48px;
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  
 }
-.button-sorting ::after {
+
+.card-grid-toggle::after {
   position: absolute;
   content: '';
   background-image: url("/image/mode-tile.svg");
@@ -412,9 +413,6 @@ body {
   left: 0;
   top:0;
 }
-
-
-
 .hotel-catalog {
   padding-right:71px;
   padding-left:72px;
