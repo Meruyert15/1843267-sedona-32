@@ -79,7 +79,7 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
-  fill: #D0000;
+  fill: #DBDBDB;
 }
 
 .button-open {
@@ -541,7 +541,7 @@ font-size: 25px;
   margin-right: 8px;
   margin-bottom: 8px;
   }
-}
+
 
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
