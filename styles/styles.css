@@ -486,14 +486,24 @@ body {
   text-decoration: none;
 }
 
+/*.reserve-item a :not(.button) {
+  color: #83B3D3;
+}*/
 
 
 .rating-stars {
   display: flex;
   justify-content: flex-end;
   padding-right: 107px;
-
+   
 }
+.rating-stars .icon-star::before {
+margin-right: 0;
+content: "\2605";
+color:#83B3D3;
+font-size: 25px;
+}
+
 
 .rating {
   display: flex;
