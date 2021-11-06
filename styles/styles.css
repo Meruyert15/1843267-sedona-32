@@ -22,6 +22,7 @@
 
 
 
+
 body {
   width: 1200px;
   padding-left: 40px;
@@ -57,10 +58,22 @@ body {
 .navigation-user {
   max-width: 100px;
   margin-left:200px;
-
 }
 
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #D0000;
+}
+
+
+
 .navigation-link {
+  position: relative;
   font-family: PT Sans;
   font-size: 20px;
   line-height: 26px;
