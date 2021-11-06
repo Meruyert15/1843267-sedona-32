@@ -413,6 +413,8 @@ body {
   left: 0;
   top:0;
 }
+
+
 .hotel-catalog {
   padding-right:71px;
   padding-left:72px;
@@ -524,13 +526,38 @@ body {
 }
 
 .footer-social-item {
-  margin-right: 30px;
-  margin-bottom: 50px;
+  width: 56px;
+  height: 44px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  }
 }
 
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
 }
+
+.footer-social-link {
+  display: block;
+  height: 44px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+}
+
+.footer-social-tw {
+  background-image: url("/image/social-twitter.svg");
+}
+
+.footer-social-fb {
+  background-image: url("/image/social-facebook.svg");
+}
+
+.footer-social-youtube {
+  background-image: url("/image/social-youtube.svg");
+}
+
 
 .tel-number {
   padding-top: 40px;
