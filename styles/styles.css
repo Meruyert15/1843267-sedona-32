@@ -401,11 +401,7 @@ body {
   height: 48px;
   position: relative;
 }
-
-.card-grid-toggle::after {
-  position: absolute;
-  content: '';
-  background-image: url("/image/mode-tile.svg");
+.card-grid-toggle a {
   background-position: center;
   background-repeat: no-repeat;
   right: 0;
@@ -414,6 +410,17 @@ body {
   top:0;
 }
 
+.card-grid-tile {
+ background-image: url("/image/mode-tile.svg");
+}
+
+.card-grid-slideshow {
+  background-image: url("/image/mode-slideshow.svg");
+} 
+
+.card-grid-list {
+  background-image: url("/image/mode-list.svg");
+}
 
 .hotel-catalog {
   padding-right:71px;
