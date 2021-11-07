@@ -281,6 +281,7 @@ body {
   background: #83b3d3;
   border-width: 1px;
   border-style: solid;
+  border:0;
 }
 
 .inner-header {
@@ -340,9 +341,6 @@ body {
   width: 170px;
 }
 
-.price {
-  width: 287px;
-}
 
 .filter-title {
   font-family: PT Sans;
@@ -353,12 +351,140 @@ body {
   color: #ffffff;
 }
 
+.filter-range {
+  color: #fff;
+  padding-bottom: 7px;
+  margin-bottom: 5px;
+}
+
+.filter-range-title {
+  margin-bottom: 9px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.price-controls {
+  height: 32px;
+  width: 314px;
+  margin-bottom: 20px;
+  font-size: 0;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  position: relative;
+}
+
+.price-controls .max-price, .price-controls .min-price {
+  width: 90px;
+  padding-left: 60px;
+}
+
+.price-controls label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+  color: white;
+  background: 0 0;
+  border: none;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 22px;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background: #fff;
+}
+
+.range-controls {
+  width: 315px;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background-color: rgba(255,255,255,.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+  background: #fff;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 1px 0 rgb(0 1 1 / 20%);
+  box-shadow: 0 2px 1px 0 rgb(0 1 1 / 20%);
+  cursor: pointer;
+  background: #ababab;
+  border: 8px solid #fff;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.btn-transparent {
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  background: 0 0;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 132px;
+  height: 32px;
+  margin-left: 87px;
+  text-align: center;
+}
 
 .apply-reset {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 160px;
+  
+  
+}
+.button {
+  background-color: #83B3D3;
+  color: white;
+  text-transform: uppercase;
+  width: 160px;
+  height: 48px;
+  border:0px;
+}
+
+.reset {
+  width: 160px;
+  height: 23px;
+  border:0px;
+  padding-left: 40px;
+  padding-top: 20px;
+  
 }
 
 .interesting {
@@ -409,14 +535,12 @@ body {
   height: 48px;
   position: relative;
   border-radius: 4px;
+  
 }
 .card-grid-toggle a {
   background-position: center;
   background-repeat: no-repeat;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  top:0;
+  padding-left: 8px;
 }
 
 .card-grid-tile {
