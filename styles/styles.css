@@ -296,7 +296,7 @@ body {
   padding-top: 35px;
   padding-left:71px ;
   padding-right: 72px;
-  padding-bottom: 83px ;
+  padding-bottom: 83px;
 }
 
 .inner-header-title {
@@ -353,6 +353,7 @@ body {
   color: #ffffff;
 }
 
+
 .apply-reset {
   display: flex;
   flex-direction: column;
@@ -390,8 +391,15 @@ body {
   justify-content: space-between;
   width: 1057px;
   padding-top: 44px;
-
 }
+
+.select-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 287px; 
+  height: 48px; 
+ }
 
 .card-grid-toggle {
   display: flex;
@@ -400,6 +408,7 @@ body {
   width: 48px;
   height: 48px;
   position: relative;
+  border-radius: 4px;
 }
 .card-grid-toggle a {
   background-position: center;
