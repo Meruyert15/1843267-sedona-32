@@ -617,7 +617,7 @@ body {
   margin-top: 16px;
   padding: 3px 17px;
   color: #ffffff;
-  background-color:  #766357;
+ /* background-color:  #766357;*/
   height: 18px;
   width: 125px;
   font-size: 14px;
@@ -626,10 +626,17 @@ body {
   text-decoration: none;
 }
 
-.reserve-item :not(.button) {
+/*.reserve-item :not(.button) {
  background-color: #83B3D3;
+}*/
+
+.button-brown {
+  background-color: #766357;
 }
 
+.button-green {
+  background-color: #7DB54F;
+}
 
 .rating-stars {
   display: flex;
