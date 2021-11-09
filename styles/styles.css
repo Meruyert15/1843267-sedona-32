@@ -626,9 +626,9 @@ body {
   text-decoration: none;
 }
 
-/*.reserve-item a :not(.button) {
-  color: #83B3D3;
-}*/
+.reserve-item :not(.button) {
+ background-color: #83B3D3;
+}
 
 
 .rating-stars {
