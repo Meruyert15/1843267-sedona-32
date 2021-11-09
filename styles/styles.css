@@ -502,6 +502,12 @@ body {
   padding-top: 94px;
 }
 
+/*.email {
+display: block;
+width: 100%;
+box-sizing:border-box ;
+}*/
+
 .page-footer-container {
   display: flex;
   width: 1200px;
