@@ -489,6 +489,15 @@ body {
   text-transform: uppercase;
 }
 
+.interesting-button {
+  text-transform: uppercase;
+  width: 575px;
+  height: 60px;
+  background-color: #756257;
+  border: 0;
+  color: white;
+}
+
 .subscribe-title {
   padding-top: 94px;
 }
