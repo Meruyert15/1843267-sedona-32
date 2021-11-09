@@ -21,8 +21,6 @@
 }
 
 
-
-
 body {
   width: 1200px;
   padding-left: 40px;
@@ -56,6 +54,7 @@ body {
   display: flex;
   width: 1200px;
   margin: auto 0;
+  align-items: center;
 }
 
 .navigation-list {
@@ -70,6 +69,7 @@ body {
   margin-left:150px;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 
 .navigation-icon {
@@ -107,7 +107,7 @@ body {
 
 .logo {
   display: block;
-  padding-left: 70px;
+  padding-left: 90px;
 }
 
 .inner-container {
@@ -319,6 +319,7 @@ body {
 .all-service {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .service {
@@ -349,6 +350,7 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #ffffff;
+  margin-top: 0;
 }
 
 .filter-range {
@@ -358,10 +360,12 @@ body {
 }
 
 .filter-range-title {
+  font-family: PT Sans;
   margin-bottom: 9px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  align-items: center;
 }
 
 .price-controls {
@@ -446,20 +450,7 @@ body {
   left: 80%;
 }
 
-.btn-transparent {
-  display: block;
-  font-size: 14px;
-  line-height: 30px;
-  color: #fff;
-  background: 0 0;
-  border: 2px solid #fff;
-  border-radius: 2px;
-  cursor: pointer;
-  width: 132px;
-  height: 32px;
-  margin-left: 87px;
-  text-align: center;
-}
+
 
 .apply-reset {
   display: flex;
@@ -617,18 +608,13 @@ body {
   margin-top: 16px;
   padding: 3px 17px;
   color: #ffffff;
- /* background-color:  #766357;*/
-  height: 18px;
-  width: 125px;
+  height: 37px;
+  width: 151px;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 }
-
-/*.reserve-item :not(.button) {
- background-color: #83B3D3;
-}*/
 
 .button-brown {
   background-color: #766357;
