@@ -22,7 +22,7 @@
 
 
 body {
-  width: 1200px;
+ min-width: 1200px;
   padding-left: 40px;
   padding-right: 40px;
   margin-left: auto;
