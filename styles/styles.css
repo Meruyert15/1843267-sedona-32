@@ -22,7 +22,7 @@
 
 
 body {
- min-width: 1200px;
+  width: 1200px;
   padding-left: 40px;
   padding-right: 40px;
   margin-left: auto;
@@ -33,6 +33,12 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+
+.img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
 
 .visually-hidden {
   position: absolute;
