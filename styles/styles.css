@@ -95,7 +95,7 @@ body {
 
 .navigation-link {
   position: relative;
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
@@ -174,7 +174,7 @@ body {
   margin: 0%;
 }
 .number {
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -309,7 +309,7 @@ body {
 }
 
 .inner-header-hotels {
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -323,7 +323,7 @@ body {
 }
 
 .service {
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -344,7 +344,7 @@ body {
 
 
 .filter-title {
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
