@@ -560,7 +560,7 @@ body {
   height: 48px;
   position: relative;
   border-radius: 4px;
-  
+  padding-right: 72px;
 }
 .card-grid-toggle a {
   background-position: center;
