@@ -260,13 +260,6 @@ body {
   text-transform: uppercase;
 }
 
-.container-list-food {
-  background-color: #ffffff;
-}
-
-.container-list-way {
-  background: #83b3d334;
-}
 
 .subscribe {
   color: #ffffff;
@@ -325,7 +318,8 @@ body {
 .all-service {
   display: flex;
   justify-content: space-between;
-  
+  padding-left: 72px;
+  padding-right: 72px;
 }
 
 .service {
@@ -508,11 +502,7 @@ body {
   padding-top: 94px;
 }
 
-/*.email {
-display: block;
-width: 100%;
-box-sizing:border-box ;
-}*/
+
 
 .page-footer-container {
   display: flex;
@@ -669,6 +659,11 @@ font-size: 25px;
   height: 100px;
   width: 1200px;
   margin: 0px;
+}
+
+.wrapper-inner {
+  display: flex;
+  justify-content: space-between;
 }
 
 
