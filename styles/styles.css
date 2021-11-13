@@ -259,6 +259,28 @@ body {
 .container-list-title {
   text-transform: uppercase;
 }
+.container-list-food {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 384px;
+  align-items: center;
+  padding-top: 98px;
+ background-color: white;
+}
+
+.container-list-way {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 384px;
+  align-items: center;
+  padding-top: 98px;
+ background-color: #83B3D333;
+}
+
+
+
 
 
 .subscribe {
