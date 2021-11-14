@@ -383,7 +383,7 @@ body {
 }
 
 .filter-range-title {
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   margin-bottom: 9px;
   font-weight: 700;
   font-size: 20px;
