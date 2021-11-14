@@ -2,8 +2,8 @@
   font-family: PT Sans;
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/PTSans-Regular.woff2") format("woff2"),
-    url("../fonts/PTSans-Regular.woff") format("woff");
+  src: url("/fonts/ptsans-regular.woff2") format("woff2"),
+    url("/fonts/ptsans-regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -11,8 +11,8 @@
   font-family: PT Sans;
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/PTSans-Bold.woff2") format("woff2"),
-    url("../fonts/PTSans-Bold.woff") format("woff");
+  src: url("/fonts/ptsans-bold.woff2") format("woff2"),
+    url("/fonts/ptsans-bold.woff") format("woff");
   font-display: swap;
 }
 
@@ -20,14 +20,13 @@
   height: 100%;
 }
 
-
 body {
   width: 1200px;
   padding-left: 40px;
   padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
-  font-family: "PT-Sans", sans-serif;
+  font-family: PT Sans, sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
@@ -67,12 +66,12 @@ body {
   margin: 0;
   list-style-type: none;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 300px;
 }
 
 .navigation-user {
-  margin-left:150px;
+  margin-left: 150px;
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: center;
@@ -90,14 +89,13 @@ body {
 
 .button-open {
   width: 160px;
-  height:37px;
+  height: 37px;
   color: white;
   background-color: #756257;
   text-transform: uppercase;
-  border:0; 
-
+  border: 0;
+  text-decoration: none;
 }
-
 
 .navigation-link {
   position: relative;
@@ -135,6 +133,7 @@ body {
 .city {
   width: 400px;
 }
+
 .advantages-image {
   width: 800px;
 }
@@ -179,6 +178,7 @@ body {
   text-align: center;
   margin: 0%;
 }
+
 .number {
   font-family: PT Sans, sans-serif;
   font-style: normal;
@@ -213,6 +213,7 @@ body {
   color: black;
   text-transform: uppercase;
 }
+
 .number-black {
   text-align: center;
   color: black;
@@ -259,6 +260,7 @@ body {
 .container-list-title {
   text-transform: uppercase;
 }
+
 .container-list-food {
   display: flex;
   flex-direction: column;
@@ -266,7 +268,7 @@ body {
   height: 384px;
   align-items: center;
   padding-top: 98px;
- background-color: white;
+  background-color: white;
 }
 
 .container-list-way {
@@ -276,12 +278,8 @@ body {
   height: 384px;
   align-items: center;
   padding-top: 98px;
- background-color: #83B3D333;
+  background-color: #83B3D333;
 }
-
-
-
-
 
 .subscribe {
   color: #ffffff;
@@ -302,13 +300,13 @@ body {
   background: #83b3d3;
   border-width: 1px;
   border-style: solid;
-  border:0;
+  border: 0;
 }
 
 .inner-header {
   color: #ffffff;
   background-color: #000000;
-  background-image: url("../image/catalog/catalog-background.jpg");
+  background-image: url("/image/catalog-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 1200px;
@@ -316,7 +314,7 @@ body {
 
 .header-container {
   padding-top: 35px;
-  padding-left:71px ;
+  padding-left: 71px;
   padding-right: 72px;
   padding-bottom: 83px;
 }
@@ -365,7 +363,6 @@ body {
   width: 170px;
 }
 
-
 .filter-title {
   font-family: PT Sans, sans-serif;
   font-style: normal;
@@ -401,7 +398,8 @@ body {
   position: relative;
 }
 
-.price-controls .max-price, .price-controls .min-price {
+.price-controls .max-price,
+.price-controls .min-price {
   width: 90px;
   padding-left: 60px;
 }
@@ -429,9 +427,9 @@ body {
   left: 50%;
   width: 2px;
   height: 22px;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background: #fff;
 }
 
@@ -443,7 +441,7 @@ body {
 
 .range-controls .scale {
   height: 2px;
-  background-color: rgba(255,255,255,.3);
+  background-color: rgba(255, 255, 255, .3);
 }
 
 .range-controls .bar {
@@ -473,32 +471,29 @@ body {
   left: 80%;
 }
 
-
-
 .apply-reset {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 160px;
-  
-  
 }
+
 .button {
   background-color: #83B3D3;
   color: white;
   text-transform: uppercase;
   width: 160px;
   height: 48px;
-  border:0px;
+  border: 0px;
 }
 
 .reset {
   width: 160px;
   height: 23px;
-  border:0px;
+  border: 0px;
   padding-left: 40px;
   padding-top: 20px;
-  
+
 }
 
 .interesting {
@@ -519,13 +514,12 @@ body {
   background-color: #756257;
   border: 0;
   color: white;
+  text-decoration: none;
 }
 
 .subscribe-title {
   padding-top: 94px;
 }
-
-
 
 .page-footer-container {
   display: flex;
@@ -535,7 +529,7 @@ body {
 }
 
 .find {
-  padding-right:71px;
+  padding-right: 71px;
   padding-left: 72px;
   list-style-type: none;
   display: flex;
@@ -548,9 +542,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 287px; 
-  height: 48px; 
- }
+  width: 287px;
+  height: 48px;
+}
 
 .card-grid-toggle {
   display: flex;
@@ -562,6 +556,7 @@ body {
   border-radius: 4px;
   padding-right: 72px;
 }
+
 .card-grid-toggle a {
   background-position: center;
   background-repeat: no-repeat;
@@ -569,40 +564,37 @@ body {
 }
 
 .card-grid-tile {
- background-image: url("/image/mode-tile.svg");
+  background-image: url("/image/mode-tile.svg");
 }
 
 .card-grid-slideshow {
   background-image: url("/image/mode-slideshow.svg");
-} 
+}
 
 .card-grid-list {
   background-image: url("/image/mode-list.svg");
 }
 
 .hotel-catalog {
-  padding-right:71px;
-  padding-left:72px;
-   
+  padding-right: 71px;
+  padding-left: 72px;
 }
 
 .hotel-list {
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  
 }
 
- .hotel-list-all {
+.hotel-list-all {
   display: flex;
   justify-content: space-between;
   border-width: 1px;
   border-top-style: solid;
-  border-color:#E5E5E5;
+  border-color: #E5E5E5;
   width: 1057px;
   padding-top: 34px;
   padding-bottom: 30px;
-    
 }
 
 .hotel-item {
@@ -610,32 +602,27 @@ body {
   align-items: center;
   height: 230px;
   display: grid;
-  grid-template-columns: 300px; 
+  grid-template-columns: 300px;
   padding-bottom: 50px;
-  
 }
-
 
 .hotel-item:nth-child(3n) {
   margin-left: auto;
 }
 
-
 .hotel {
   border-width: 1px;
   border-style: solid;
-  border-color:#E5E5E5;
+  border-color: #E5E5E5;
   width: 1057px;
   margin: 0px;
   padding-top: 34px;
-
 }
 
 .details-item {
   margin-right: 6px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .reserve-item a {
@@ -662,15 +649,14 @@ body {
   display: flex;
   justify-content: flex-end;
   padding-right: 107px;
-   
-}
-.rating-stars .icon-star::before {
-margin-right: 0;
-content: "\2605";
-color:#83B3D3;
-font-size: 25px;
 }
 
+.rating-stars .icon-star::before {
+  margin-right: 0;
+  content: "\2605";
+  color: #83B3D3;
+  font-size: 25px;
+}
 
 .rating {
   display: flex;
@@ -689,14 +675,13 @@ font-size: 25px;
   justify-content: space-between;
 }
 
-
 .page-footer-container {
   display: flex;
   justify-content: space-between;
   width: 1200px;
   height: 120px;
   margin: 0 auto;
-  }
+}
 
 .footer-social-list {
   display: flex;
@@ -712,8 +697,7 @@ font-size: 25px;
   height: 44px;
   margin-right: 8px;
   margin-bottom: 8px;
-  }
-
+}
 
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
@@ -740,14 +724,12 @@ font-size: 25px;
   background-image: url("/image/social-youtube.svg");
 }
 
-
 .tel-number {
   padding-top: 40px;
   padding-bottom: 30px;
   font-weight: 400;
   font-size: 20px;
   color: #000000;
-
 }
 
 .logo-html {
@@ -775,8 +757,8 @@ font-size: 25px;
   padding: 14px 20px;
   line-height: 26px;
   font-weight: 700;
-  color:white;
-  background-color:  #83B3D3;
+  color: white;
+  background-color: #83B3D3;
   text-decoration: none;
   border-radius: 4px;
 }
@@ -786,17 +768,17 @@ font-size: 25px;
 }
 
 .button-download {
-width: 625px;
-height: 55px;
-left: 328px;
-top: 1362px;
-background: #83B3D3;
-border: 1px;
-text-transform: uppercase;
-font-weight: 700;
-color: white;
-margin-left: 287px;
-margin-right: 286px;
+  width: 625px;
+  height: 55px;
+  left: 328px;
+  top: 1362px;
+  background: #83B3D3;
+  border: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  margin-left: 287px;
+  margin-right: 286px;
 }
 
 .rating {
