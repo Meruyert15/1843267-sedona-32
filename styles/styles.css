@@ -95,6 +95,12 @@ body {
   text-transform: uppercase;
   border: none;
   text-decoration: none;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+
 }
 
 .navigation-link {
@@ -301,6 +307,7 @@ body {
   border-width: 1px;
   border-style: solid;
   border: none;
+  cursor: pointer;
 }
 
 .inner-header {
@@ -477,6 +484,7 @@ body {
   justify-content: center;
   width: 160px;
   border: none;
+  cursor: pointer;
 }
 
 .button {
@@ -487,6 +495,7 @@ body {
   height: 48px;
   border: 0px;
   border: none;
+  cursor: pointer;
 }
 
 .reset {
@@ -514,9 +523,10 @@ body {
   width: 575px;
   height: 60px;
   background-color: #756257;
-  border: 0;
+  border: none;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .subscribe-title {
@@ -782,6 +792,7 @@ body {
   margin-left: 287px;
   margin-right: 286px;
   border:none;
+  cursor: pointer;
 }
 
 .rating {
