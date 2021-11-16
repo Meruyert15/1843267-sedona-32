@@ -70,12 +70,46 @@ body {
   width: 300px;
 }
 
+.navigation-list:focus {
+  box-shadow: inset 0 0 0 4px #E7E7E7;
+  outline: none;
+}
+
+.navigation-list:hover .navigation-icon {
+  fill: #756257;
+}
+
+.navigation-list:focus .navigation-icon {
+  fill: #615048;
+} 
+
+.navigation-list:active .navigation-icon {
+  fill: #615048;
+} 
 .navigation-user {
   margin-left: 150px;
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: center;
 }
+
+.navigation-user:focus {
+  box-shadow: inset 0 0 0 4px #E7E7E7;
+  outline: none; 
+}
+
+.navigation-user:hover .navigation-icon {
+  fill: #756257;
+}
+
+.navigation-user:focus .navigation-icon {
+  fill:#615048;
+} 
+
+.navigation-list:active .navigation-icon {
+  fill: #615048;
+} 
+
 
 .navigation-icon {
   position: absolute;
@@ -498,6 +532,18 @@ body {
   cursor: pointer;
 }
 
+.button:hover {
+  fill:#83B3D3;
+}
+
+.button:focus {
+  fill:#68A2CA;
+} 
+
+.button:active {
+  fill: #68A2CA;
+} 
+
 .reset {
   width: 160px;
   height: 23px;
@@ -522,6 +568,10 @@ body {
   text-transform: uppercase;
   width: 575px;
   height: 60px;
+  padding-top:13px ;
+  padding-bottom:17px;
+  padding-right: 190px;
+  padding-left: 190px;
   background-color: #756257;
   border: none;
   color: white;
@@ -529,6 +579,17 @@ body {
   cursor: pointer;
 }
 
+.interesting-button:hover {
+  fill: #756257;
+}
+
+.interesting-button:focus {
+  fill:#615048;
+} 
+
+.interesting-button:active {
+  fill: #615048;
+} 
 .subscribe-title {
   padding-top: 94px;
 }
@@ -653,6 +714,18 @@ body {
   background-color: #766357;
 }
 
+.button-brown:hover {
+  fill: #756257;
+}
+
+.button-brown:focus {
+  fill:#615048;
+} 
+
+.button-brown:active {
+  fill: #615048;
+} 
+
 .button-green {
   background-color: #7DB54F;
 }
@@ -711,6 +784,18 @@ body {
   margin-bottom: 8px;
 }
 
+.footer-social-item:hover {
+  fill:#83B3D3;
+}
+
+.footer-social-item:focus {
+  fill:#68A2CA;
+} 
+
+.footer-social-item:active {
+  fill: #68A2CA;
+} 
+
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -744,11 +829,36 @@ body {
   color: #000000;
 }
 
+.tel-number:hover {
+  fill:#000000;
+}
+
+.tel-number:focus {
+  fill:#756257;
+} 
+
+.tel-number:active {
+  fill: #756257;
+} 
+
 .logo-html {
   padding-top: 42px;
   padding-bottom: 44px;
   margin-right: 72px;
 }
+
+.logo-html:hover {
+  fill:#000000;
+}
+
+.logo-html:focus {
+  fill:#756257;
+} 
+
+.logo-html:active {
+  fill: #756257;
+} 
+
 
 .pagination {
   display: flex;
