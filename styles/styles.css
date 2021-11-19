@@ -138,6 +138,8 @@ body {
   padding-right: 30px;
   padding-left: 30px;
   margin-right: 35px;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
