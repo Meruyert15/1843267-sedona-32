@@ -92,6 +92,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: center;
+
 }
 
 .navigation-user:focus {
@@ -138,8 +139,7 @@ body {
   padding-right: 30px;
   padding-left: 30px;
   margin-right: 35px;
-  display: flex;
-  flex-wrap: wrap;
+ 
 
 }
 
@@ -699,9 +699,10 @@ body {
 }
 
 .details-item {
-  margin-right: 6px;
+  margin-right: 70px;
   display: flex;
   justify-content: space-between;
+ 
 }
 
 .reserve-item a {
