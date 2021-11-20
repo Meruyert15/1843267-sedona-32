@@ -566,6 +566,10 @@ body {
   padding-top: 91px;
 }
 
+.interesting-description {
+  padding-bottom: 70px;
+}
+
 .interesting-title {
   text-transform: uppercase;
 }
