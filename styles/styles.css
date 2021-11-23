@@ -82,11 +82,12 @@ body {
 
 .navigation-list:focus .navigation-icon {
   fill: #615048;
-} 
+}
 
 .navigation-list:active .navigation-icon {
   fill: #615048;
-} 
+}
+
 .navigation-user {
   margin-left: 150px;
   padding-top: 24px;
@@ -96,8 +97,9 @@ body {
 }
 
 .navigation-user:focus {
-  box-shadow: inset 0 0 0 4px #E7E7E7;
-  outline: none; 
+  outline: none;
+  box-shadow: 0 0 10px rgba(3, 138, 255, 1);
+
 }
 
 .navigation-user:hover .navigation-icon {
@@ -105,12 +107,12 @@ body {
 }
 
 .navigation-user:focus .navigation-icon {
-  fill:#615048;
-} 
+  fill: #615048;
+}
 
 .navigation-list:active .navigation-icon {
   fill: #615048;
-} 
+}
 
 
 .navigation-icon {
@@ -139,7 +141,7 @@ body {
   padding-right: 30px;
   padding-left: 30px;
   margin-right: 35px;
- 
+
 
 }
 
@@ -539,16 +541,16 @@ body {
 }
 
 .button:hover {
-  fill:#83B3D3;
+  fill: #83B3D3;
 }
 
 .button:focus {
-  fill:#68A2CA;
-} 
+  fill: #68A2CA;
+}
 
 .button:active {
   fill: #68A2CA;
-} 
+}
 
 .reset {
   width: 160px;
@@ -578,8 +580,8 @@ body {
   text-transform: uppercase;
   width: 575px;
   height: 60px;
-  padding-top:13px ;
-  padding-bottom:17px;
+  padding-top: 13px;
+  padding-bottom: 17px;
   padding-right: 190px;
   padding-left: 190px;
   background-color: #756257;
@@ -594,12 +596,13 @@ body {
 }
 
 .interesting-button:focus {
-  fill:#615048;
-} 
+  fill: #615048;
+}
 
 .interesting-button:active {
   fill: #615048;
-} 
+}
+
 .subscribe-title {
   padding-top: 94px;
 }
@@ -706,7 +709,7 @@ body {
   margin-right: 70px;
   display: flex;
   justify-content: space-between;
- 
+
 }
 
 .reserve-item a {
@@ -730,12 +733,12 @@ body {
 }
 
 .button-brown:focus {
-  fill:#615048;
-} 
+  fill: #615048;
+}
 
 .button-brown:active {
   fill: #615048;
-} 
+}
 
 .button-green {
   background-color: #7DB54F;
@@ -797,16 +800,16 @@ body {
 }
 
 .footer-social-item:hover {
-  fill:#83B3D3;
+  fill: #83B3D3;
 }
 
 .footer-social-item:focus {
-  fill:#68A2CA;
-} 
+  fill: #68A2CA;
+}
 
 .footer-social-item:active {
   fill: #68A2CA;
-} 
+}
 
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
@@ -842,16 +845,16 @@ body {
 }
 
 .tel-number:hover {
-  fill:#000000;
+  fill: #000000;
 }
 
 .tel-number:focus {
-  fill:#756257;
-} 
+  fill: #756257;
+}
 
 .tel-number:active {
   fill: #756257;
-} 
+}
 
 .logo-html {
   padding-top: 42px;
@@ -860,16 +863,16 @@ body {
 }
 
 .logo-html:hover {
-  fill:#000000;
+  fill: #000000;
 }
 
 .logo-html:focus {
-  fill:#756257;
-} 
+  fill: #756257;
+}
 
 .logo-html:active {
   fill: #756257;
-} 
+}
 
 
 .pagination {
@@ -913,7 +916,7 @@ body {
   color: white;
   margin-left: 287px;
   margin-right: 286px;
-  border:none;
+  border: none;
   cursor: pointer;
 }
 
