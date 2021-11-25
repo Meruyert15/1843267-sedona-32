@@ -132,6 +132,8 @@ html {
   justify-content: space-between;
   width: 1082px;
   margin: 0 auto;
+  padding-right:70px;
+  padding-bottom: 10px;
 }
 
 .navigation-list {
